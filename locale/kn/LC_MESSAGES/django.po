@@ -1,0 +1,138 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-03-19 12:00+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: kn\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "Welcome to KRISHIBAZAAR"
+msgstr "ಕೃಷಿಬಜಾರ್‌ಗೆ ಸ್ವಾಗತ"
+
+msgid "Welcome to KRISHIBAZAAR! 🌾"
+msgstr "ಕೃಷಿಬಜಾರ್‌ಗೆ ಸ್ವಾಗತ! 🌾"
+
+msgid "Connect with buyers and manage your products easily."
+msgstr "ಖರೀದಿದಾರರೊಂದಿಗೆ ಸಂಪರ್ಕ ಹೊಂದಿ ಮತ್ತು ನಿಮ್ಮ ಉತ್ಪನ್ನಗಳನ್ನು ಸುಲಭವಾಗಿ ನಿರ್ವಹಿಸಿ."
+
+msgid "Connecting Farmers"
+msgstr "ರೈತರನ್ನು ಸಂಪರ್ಕಿಸುವುದು"
+
+msgid "Directly to Buyers"
+msgstr "ನೇರವಾಗಿ ಖರೀದಿದಾರರಿಗೆ"
+
+msgid "KRISHIBAZAAR eliminates middlemen, ensuring fair prices for farmers and quality produce for buyers. Join our platform to experience transparent and efficient agricultural trading."
+msgstr "ಕೃಷಿಬಜಾರ್ ಮಧ್ಯವರ್ತಿಗಳನ್ನು ತೊಡೆದುಹಾಕುತ್ತದೆ, ರೈತರಿಗೆ ನ್ಯಾಯೋಚಿತ ಬೆಲೆಗಳು ಮತ್ತು ಖರೀದಿದಾರರಿಗೆ ಗುಣಮಟ್ಟದ ಉತ್ಪನ್ನಗಳನ್ನು ಖಚಿತಪಡಿಸುತ್ತದೆ. ಪಾರದರ್ಶಕ ಮತ್ತು ಸಮರ್ಥ ಕೃಷಿ ವ್ಯಾಪಾರವನ್ನು ಅನುಭವಿಸಲು ನಮ್ಮ ವೇದಿಕೆಯಲ್ಲಿ ಸೇರಿ."
+
+msgid "Get Started"
+msgstr "ಪ್ರಾರಂಭಿಸಿ"
+
+msgid "Browse Crops"
+msgstr "ಬೆಳೆಗಳನ್ನು ಬ್ರೌಸ್ ಮಾಡಿ"
+
+msgid "Features"
+msgstr "ವೈಶಿಷ್ಟ್ಯಗಳು"
+
+msgid "Why Choose KRISHIBAZAAR?"
+msgstr "ಏಕೆ ಕೃಷಿಬಜಾರ್‌ನ್ನು ಆಯ್ಕೆ ಮಾಡಬೇಕು?"
+
+msgid "Our platform offers unique features designed to benefit both farmers and buyers."
+msgstr "ನಮ್ಮ ವೇದಿಕೆಯು ರೈತರು ಮತ್ತು ಖರೀದಿದಾರರೆರಡಕ್ಕೂ ಲಾಭವಾಗುವಂತೆ ವಿನ್ಯಾಸಗೊಳಿಸಲಾದ ವಿಶಿಷ್ಟ ವೈಶಿಷ್ಟ್ಯಗಳನ್ನು ನೀಡುತ್ತದೆ."
+
+msgid "For Farmers"
+msgstr "ರೈತರಿಗಾಗಿ"
+
+msgid "Direct access to buyers"
+msgstr "ಖರೀದಿದಾರರಿಗೆ ನೇರ ಪ್ರವೇಶ"
+
+msgid "Fair market prices"
+msgstr "ನ್ಯಾಯೋಚಿತ ಮಾರುಕಟ್ಟೆ ಬೆಲೆಗಳು"
+
+msgid "Easy crop listing"
+msgstr "ಸುಲಭ ಬೆಳೆ ಪಟ್ಟಿ"
+
+msgid "Real-time bidding"
+msgstr "ನೈಜ-ಸಮಯ ಬಿಡ್"
+
+msgid "Secure payments"
+msgstr "ಸುರಕ್ಷಿತ ಪಾವತಿಗಳು"
+
+msgid "For Buyers"
+msgstr "ಖರೀದಿದಾರರಿಗಾಗಿ"
+
+msgid "Direct from farm"
+msgstr "ಫಾರ್ಮ್‌ನಿಂದ ನೇರವಾಗಿ"
+
+msgid "Quality assurance"
+msgstr "ಗುಣಮಟ್ಟದ ಭರವಸೆ"
+
+msgid "Competitive pricing"
+msgstr "ಸ್ಪರ್ಧಾತ್ಮಕ ಬೆಲೆ"
+
+msgid "Bulk purchasing"
+msgstr "ಅಧಿಕ ಖರೀದಿ"
+
+msgid "Demand raising"
+msgstr "ಬೇಡಿಕೆ ಹೆಚ್ಚಳ"
+
+msgid "Stay Updated with Market Trends"
+msgstr "ಮಾರುಕಟ್ಟೆ ಪ್ರವೃತ್ತಿಗಳೊಂದಿಗೆ ನವೀಕೃತವಾಗಿರಿ"
+
+msgid "Get real-time updates on crop prices, market demands, and agricultural news to make informed decisions."
+msgstr "ಸೂಕ್ತ ನಿರ್ಧಾರಗಳನ್ನು ತೆಗೆದುಕೊಳ್ಳಲು ಬೆಳೆ ಬೆಲೆಗಳು, ಮಾರುಕಟ್ಟೆ ಬೇಡಿಕೆಗಳು ಮತ್ತು ಕೃಷಿ ಸುದ್ದಿಗಳ ಕುರಿತು ನೈಜ-ಸಮಯ ನವೀಕರಣಗಳನ್ನು ಪಡೆಯಿರಿ."
+
+msgid "View Market Updates"
+msgstr "ಮಾರುಕಟ್ಟೆ ನವೀಕರಣಗಳನ್ನು ವೀಕ್ಷಿಸಿ"
+
+msgid "Market Trend 1"
+msgstr "ಮಾರುಕಟ್ಟೆ ಪ್ರವೃತ್ತಿ 1"
+
+msgid "Market Trend 2"
+msgstr "ಮಾರುಕಟ್ಟೆ ಪ್ರವೃತ್ತಿ 2"
+
+msgid "Market Trend 3"
+msgstr "ಮಾರುಕಟ್ಟೆ ಪ್ರವೃತ್ತಿ 3"
+
+msgid "Market Trend 4"
+msgstr "ಮಾರುಕಟ್ಟೆ ಪ್ರವೃತ್ತಿ 4"
+
+msgid "Home"
+msgstr "ಮುಖಪುಟ"
+
+msgid "Crops"
+msgstr "ಬೆಳೆಗಳು"
+
+msgid "Demands"
+msgstr "ಬೇಡಿಕೆಗಳು"
+
+msgid "Recommendations"
+msgstr "ಶಿಫಾರಸುಗಳು"
+
+msgid "Contact"
+msgstr "ಸಂಪರ್ಕ"
+
+msgid "Language"
+msgstr "ಭಾಷೆ"
+
+msgid "Login"
+msgstr "ಲಾಗಿನ್"
+
+msgid "Register"
+msgstr "ನೋಂದಣಿ"
+
+msgid "Logout"
+msgstr "ಲಾಗ್ ಔಟ್"
+
+msgid "Profile"
+msgstr "ಪ್ರೊಫೈಲ್"

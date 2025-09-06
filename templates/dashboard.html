@@ -1,0 +1,96 @@
+{% extends "base.html" %}
+{% load i18n %}
+
+{% block title %}{% trans "Dashboard" %}{% endblock %}
+
+{% block content %}
+<div class="min-h-screen bg-gray-50">
+    <div class="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:px-8">
+        <div class="bg-white shadow rounded-lg">
+            <div class="px-4 py-5 sm:p-6">
+                <h2 class="text-2xl font-bold text-gray-900 mb-6">
+                    {% trans "Welcome to your Dashboard" %}
+                </h2>
+
+                {% if user.role == 'farmer' %}
+                <div class="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
+                    <div class="bg-green-50 p-6 rounded-lg">
+                        <h3 class="text-lg font-medium text-green-800 mb-4">
+                            {% trans "Crop Management" %}
+                        </h3>
+                        <p class="text-green-700 mb-4">
+                            {% trans "Manage your crops and get recommendations" %}
+                        </p>
+                        <a href="{% url 'crops:list' %}" class="text-green-600 hover:text-green-500">
+                            {% trans "View Crops" %}
+                        </a>
+                    </div>
+
+                    <div class="bg-green-50 p-6 rounded-lg">
+                        <h3 class="text-lg font-medium text-green-800 mb-4">
+                            {% trans "Marketplace" %}
+                        </h3>
+                        <p class="text-green-700 mb-4">
+                            {% trans "Sell your produce and respond to demands" %}
+                        </p>
+                        <a href="{% url 'bidding:demand_list' %}" class="text-green-600 hover:text-green-500">
+                            {% trans "View Demands" %}
+                        </a>
+                    </div>
+
+                    <div class="bg-green-50 p-6 rounded-lg">
+                        <h3 class="text-lg font-medium text-green-800 mb-4">
+                            {% trans "Crop Recommendations" %}
+                        </h3>
+                        <p class="text-green-700 mb-4">
+                            {% trans "Get personalized crop recommendations" %}
+                        </p>
+                        <a href="{% url 'crops:recommendation' %}" class="text-green-600 hover:text-green-500">
+                            {% trans "Get Recommendations" %}
+                        </a>
+                    </div>
+                </div>
+                {% else %}
+                <div class="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
+                    <div class="bg-blue-50 p-6 rounded-lg">
+                        <h3 class="text-lg font-medium text-blue-800 mb-4">
+                            {% trans "Marketplace" %}
+                        </h3>
+                        <p class="text-blue-700 mb-4">
+                            {% trans "Browse and purchase agricultural products" %}
+                        </p>
+                        <a href="{% url 'crops:list' %}" class="text-blue-600 hover:text-blue-500">
+                            {% trans "View Products" %}
+                        </a>
+                    </div>
+
+                    <div class="bg-blue-50 p-6 rounded-lg">
+                        <h3 class="text-lg font-medium text-blue-800 mb-4">
+                            {% trans "Create Demand" %}
+                        </h3>
+                        <p class="text-blue-700 mb-4">
+                            {% trans "Post your requirements for agricultural products" %}
+                        </p>
+                        <a href="{% url 'bidding:create_demand' %}" class="text-blue-600 hover:text-blue-500">
+                            {% trans "Create Demand" %}
+                        </a>
+                    </div>
+
+                    <div class="bg-blue-50 p-6 rounded-lg">
+                        <h3 class="text-lg font-medium text-blue-800 mb-4">
+                            {% trans "My Demands" %}
+                        </h3>
+                        <p class="text-blue-700 mb-4">
+                            {% trans "View and manage your posted demands" %}
+                        </p>
+                        <a href="{% url 'bidding:demand_list' %}" class="text-blue-600 hover:text-blue-500">
+                            {% trans "View Demands" %}
+                        </a>
+                    </div>
+                </div>
+                {% endif %}
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %} 

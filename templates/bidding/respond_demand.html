@@ -1,0 +1,53 @@
+{% extends 'base.html' %}
+{% load static %}
+{% load i18n %}
+
+{% block title %}{% trans "Respond to Demand" %}{% endblock %}
+
+{% block content %}
+<div class="bg-white bg-opacity-90 rounded-lg shadow-lg p-6 max-w-3xl mx-auto">
+    <div class="mb-6">
+        <h1 class="text-3xl font-bold text-gray-900">{% trans "Respond to Demand" %}</h1>
+        <p class="mt-2 text-gray-600">{% trans "Review the demand details and choose to accept or reject it." %}</p>
+    </div>
+
+    <div class="bg-gray-50 rounded-lg p-6 mb-6">
+        <h2 class="text-xl font-semibold text-gray-900 mb-4">{{ demand.crop_name }}</h2>
+        <p class="text-gray-600 mb-4">{{ demand.description }}</p>
+        
+        <div class="grid grid-cols-2 gap-4 mb-4">
+            <div>
+                <p class="text-sm text-gray-500">{% trans "Quantity" %}</p>
+                <p class="font-medium">{{ demand.quantity }} {{ demand.unit }}</p>
+            </div>
+            <div>
+                <p class="text-sm text-gray-500">{% trans "Max Price" %}</p>
+                <p class="font-medium">₹{{ demand.max_price }}/{{ demand.unit }}</p>
+            </div>
+        </div>
+        
+        <div class="grid grid-cols-2 gap-4 mb-4">
+            <div>
+                <p class="text-sm text-gray-500">{% trans "Location" %}</p>
+                <p class="font-medium">{{ demand.district }}, {{ demand.state }}</p>
+            </div>
+            <div>
+                <p class="text-sm text-gray-500">{% trans "Posted by" %}</p>
+                <p class="font-medium">{{ demand.buyer.get_full_name }}</p>
+            </div>
+        </div>
+    </div>
+
+    <form method="post" class="space-y-4">
+        {% csrf_token %}
+        <div class="flex justify-end space-x-4">
+            <button type="submit" name="action" value="reject" class="px-4 py-2 border border-red-300 rounded-md text-red-700 hover:bg-red-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500">
+                {% trans "Reject Demand" %}
+            </button>
+            <button type="submit" name="action" value="accept" class="px-4 py-2 border border-transparent rounded-md shadow-sm text-white bg-green-600 hover:bg-green-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-green-500">
+                {% trans "Accept Demand" %}
+            </button>
+        </div>
+    </form>
+</div>
+{% endblock %} 

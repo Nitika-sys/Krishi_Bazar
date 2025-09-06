@@ -1,0 +1,133 @@
+{% extends "base.html" %}
+{% load i18n %}
+{% load crispy_forms_tags %}
+
+{% block title %}{% trans "My Crops" %}{% endblock %}
+
+{% block content %}
+<div class="min-h-screen bg-gray-50 py-12 px-4 sm:px-6 lg:px-8">
+    <div class="max-w-7xl mx-auto">
+        <div class="flex justify-between items-center mb-8">
+            <h1 class="text-3xl font-bold text-gray-900">{% trans "My Crops" %}</h1>
+            <a href="{% url 'crops:create' %}" class="bg-green-600 text-white px-4 py-2 rounded-md hover:bg-green-700 transition duration-300">
+                {% trans "Add New Crop" %}
+            </a>
+        </div>
+
+        <div class="bg-white shadow rounded-lg">
+            <div class="px-4 py-5 sm:p-6">
+                {% if crops %}
+                <div class="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
+                    {% for crop in crops %}
+                    <div class="border rounded-lg p-4 hover:shadow-md transition-shadow">
+                        {% if crop.image %}
+                        <img src="{{ crop.image.url }}" alt="{{ crop.name }}" class="w-full h-48 object-cover rounded-lg mb-4">
+                        {% endif %}
+                        <h3 class="text-lg font-semibold">{{ crop.name }}</h3>
+                        <p class="text-gray-600 text-sm mb-2">{{ crop.description }}</p>
+                        <div class="space-y-1">
+                            <p><span class="font-medium">{% trans "Price:" %}</span> ₹{{ crop.price_per_unit }}</p>
+                            <p><span class="font-medium">{% trans "Quantity:" %}</span> {{ crop.quantity }} {{ crop.unit }}</p>
+                            <p><span class="font-medium">{% trans "Status:" %}</span> 
+                                <span class="{% if crop.is_available %}text-green-600{% else %}text-red-600{% endif %}">
+                                    {% if crop.is_available %}{% trans "Available" %}{% else %}{% trans "Sold Out" %}{% endif %}
+                                </span>
+                            </p>
+                        </div>
+                        <div class="mt-4 flex space-x-2">
+                            <a href="{% url 'crops:update' crop.id %}" class="text-blue-600 hover:text-blue-500">
+                                {% trans "Edit" %}
+                            </a>
+                            <a href="{% url 'crops:delete' crop.id %}" class="text-red-600 hover:text-red-500">
+                                {% trans "Delete" %}
+                            </a>
+                        </div>
+                    </div>
+                    {% endfor %}
+                </div>
+                {% else %}
+                <div class="text-center py-12">
+                    <p class="text-gray-500 mb-4">{% trans "You haven't listed any crops yet." %}</p>
+                    <a href="{% url 'crops:create' %}" class="text-green-600 hover:text-green-500">
+                        {% trans "Add your first crop" %}
+                    </a>
+                </div>
+                {% endif %}
+            </div>
+        </div>
+
+        <!-- Recommendation Form -->
+        <div class="mt-8 bg-white shadow rounded-lg">
+            <div class="px-4 py-5 sm:p-6">
+                <h2 class="text-xl font-semibold text-gray-900 mb-4">
+                    {% trans "Get Crop Recommendations" %}
+                </h2>
+                <form id="recommendationForm" method="POST" class="space-y-4">
+                    {% csrf_token %}
+                    {{ recommendation_form|crispy }}
+                    <div class="flex justify-end">
+                        <button type="submit" class="bg-green-600 text-white px-4 py-2 rounded-md hover:bg-green-700 transition duration-300">
+                            {% trans "Get Recommendations" %}
+                        </button>
+                    </div>
+                </form>
+
+                <div id="loadingIndicator" class="hidden mt-6">
+                    <div class="flex items-center justify-center">
+                        <div class="animate-spin rounded-full h-8 w-8 border-b-2 border-green-600"></div>
+                        <span class="ml-3 text-gray-700">{% trans "Generating recommendations..." %}</span>
+                    </div>
+                </div>
+
+                <div id="results" class="hidden mt-6">
+                    <!-- Results will be populated by JavaScript -->
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+document.getElementById('recommendationForm').addEventListener('submit', function(e) {
+    e.preventDefault();
+    
+    const form = this;
+    const loadingIndicator = document.getElementById('loadingIndicator');
+    const resultsDiv = document.getElementById('results');
+    
+    // Show loading indicator
+    loadingIndicator.classList.remove('hidden');
+    resultsDiv.classList.add('hidden');
+    
+    // Get form data
+    const formData = new FormData(form);
+    
+    // Send AJAX request
+    fetch('{% url "crops:recommendation" %}', {
+        method: 'POST',
+        body: formData,
+        headers: {
+            'X-CSRFToken': '{{ csrf_token }}',
+            'X-Requested-With': 'XMLHttpRequest'
+        }
+    })
+    .then(response => response.json())
+    .then(data => {
+        if (data.success) {
+            // Redirect to dashboard
+            window.location.href = data.redirect_url;
+        } else {
+            // Show errors
+            alert('Error: ' + JSON.stringify(data.errors));
+        }
+    })
+    .catch(error => {
+        console.error('Error:', error);
+        alert('An error occurred while processing your request.');
+    })
+    .finally(() => {
+        loadingIndicator.classList.add('hidden');
+    });
+});
+</script>
+{% endblock %} 

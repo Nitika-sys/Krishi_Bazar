@@ -1,0 +1,111 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-05-09 06:02+0530\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: hi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "Welcome to KRISHIBAZAAR! 🌾"
+msgstr "कृषिबाज़ार में आपका स्वागत है! 🌾"
+
+msgid "Connect with buyers and manage your products easily."
+msgstr "खरीदारों से जुड़ें और अपने उत्पादों को आसानी से प्रबंधित करें।"
+
+msgid "Connecting Farmers"
+msgstr "किसानों को जोड़ना"
+
+msgid "Directly to Buyers"
+msgstr "सीधे खरीदारों से"
+
+msgid "KRISHIBAZAAR eliminates middlemen, ensuring fair prices for farmers and quality produce for buyers. Join our platform to experience transparent and efficient agricultural trading."
+msgstr "कृषिबाज़ार बिचौलियों को समाप्त करता है, किसानों के लिए उचित मूल्य और खरीदारों के लिए गुणवत्तापूर्ण उत्पाद सुनिश्चित करता है। पारदर्शी और कुशल कृषि व्यापार का अनुभव करने के लिए हमारे प्लेटफॉर्म से जुड़ें।"
+
+msgid "Get Started"
+msgstr "शुरू करें"
+
+msgid "Browse Crops"
+msgstr "फसलें देखें"
+
+msgid "Features"
+msgstr "विशेषताएं"
+
+msgid "Why Choose KRISHIBAZAAR?"
+msgstr "कृषिबाज़ार क्यों चुनें?"
+
+msgid "Our platform offers unique features designed to benefit both farmers and buyers."
+msgstr "हमारा प्लेटफॉर्म किसानों और खरीदारों दोनों को लाभान्वित करने के लिए डिज़ाइन की गई अनूठी सुविधाएं प्रदान करता है।"
+
+msgid "For Farmers"
+msgstr "किसानों के लिए"
+
+msgid "Direct access to buyers"
+msgstr "खरीदारों तक सीधी पहुंच"
+
+msgid "Fair market prices"
+msgstr "उचित बाजार मूल्य"
+
+msgid "Easy crop listing"
+msgstr "आसान फसल सूचीकरण"
+
+msgid "Real-time bidding"
+msgstr "रीयल-टाइम बोली"
+
+msgid "Secure payments"
+msgstr "सुरक्षित भुगतान"
+
+msgid "For Buyers"
+msgstr "खरीदारों के लिए"
+
+msgid "Direct from farm"
+msgstr "सीधे खेत से"
+
+msgid "Quality assurance"
+msgstr "गुणवत्ता आश्वासन"
+
+msgid "Competitive pricing"
+msgstr "प्रतिस्पर्धी मूल्य"
+
+msgid "Bulk purchasing"
+msgstr "थोक खरीद"
+
+msgid "Demand raising"
+msgstr "मांग बढ़ाना"
+
+msgid "Stay Updated with Market Trends"
+msgstr "बाजार के रुझानों से अपडेट रहें"
+
+msgid "Get real-time updates on crop prices, market demands, and agricultural news to make informed decisions."
+msgstr "सूचित निर्णय लेने के लिए फसल की कीमतों, बाजार की मांगों और कृषि समाचारों पर रीयल-टाइम अपडेट प्राप्त करें।"
+
+msgid "View Market Updates"
+msgstr "बाजार अपडेट देखें"
+
+msgid "Language"
+msgstr "भाषा"
+
+msgid "Home"
+msgstr "होम"
+
+msgid "Crops"
+msgstr "फसलें"
+
+msgid "Demands"
+msgstr "मांग"
+
+msgid "Recommendations"
+msgstr "सिफारिशें"
+
+msgid "Contact"
+msgstr "संपर्क" 

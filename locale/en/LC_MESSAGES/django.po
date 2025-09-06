@@ -1,0 +1,2595 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-05-09 06:06+0530\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: .\accounts\allauth_forms.py:8 .\templates\account\login.html:25
+#: .\templates\account\login.html:26 .\templates\accounts\contact.html:26
+msgid "Email"
+msgstr ""
+
+#: .\accounts\allauth_forms.py:10
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1920
+msgid "Email address"
+msgstr ""
+
+#: .\accounts\allauth_forms.py:13 .\accounts\allauth_forms.py:15
+#: .\templates\account\login.html:29 .\templates\account\login.html:30
+msgid "Password"
+msgstr ""
+
+#: .\accounts\allauth_forms.py:18 .\accounts\allauth_forms.py:20
+msgid "Password (again)"
+msgstr ""
+
+#: .\accounts\allauth_forms.py:25 .\accounts\forms.py:18
+#: .\templates\account\signup.html:46 .\templates\accounts\register.html:46
+msgid "I want to register as"
+msgstr ""
+
+#: .\accounts\forms.py:43 .\templates\account\signup.html:72
+msgid "Sign Up"
+msgstr ""
+
+#: .\accounts\forms.py:72 .\templates\accounts\profile.html:64
+msgid "Save Changes"
+msgstr ""
+
+#: .\accounts\forms.py:92
+msgid "First Name"
+msgstr ""
+
+#: .\accounts\forms.py:93
+msgid "Last Name"
+msgstr ""
+
+#: .\accounts\forms.py:94
+msgid "Phone Number"
+msgstr ""
+
+#: .\accounts\forms.py:95 .\templates\accounts\contact.html:49
+msgid "Address"
+msgstr ""
+
+#: .\accounts\forms.py:96 .\bidding\forms.py:67 .\bidding\models.py:49
+msgid "State"
+msgstr ""
+
+#: .\accounts\forms.py:97 .\bidding\forms.py:68 .\bidding\models.py:50
+msgid "District"
+msgstr ""
+
+#: .\accounts\forms.py:98
+msgid "Pincode"
+msgstr ""
+
+#: .\accounts\forms.py:105
+msgid "Your Name"
+msgstr ""
+
+#: .\accounts\forms.py:109
+msgid "Your Email"
+msgstr ""
+
+#: .\accounts\forms.py:114
+msgid "Subject"
+msgstr ""
+
+#: .\accounts\forms.py:120
+msgid "Your message here..."
+msgstr ""
+
+#: .\accounts\forms.py:122 .\bidding\forms.py:29 .\bidding\forms.py:95
+#: .\bidding\models.py:17 .\bidding\models.py:69 .\notifications\models.py:17
+#: .\templates\bidding\my_bids.html:43
+msgid "Message"
+msgstr ""
+
+#: .\accounts\models.py:7 .\templates\crops\detail.html:35
+msgid "Farmer"
+msgstr ""
+
+#: .\accounts\models.py:8
+msgid "Buyer"
+msgstr ""
+
+#: .\accounts\views.py:39
+msgid "Profile updated successfully."
+msgstr ""
+
+#: .\accounts\views.py:72
+msgid "Thank you for your message. We will get back to you soon."
+msgstr ""
+
+#: .\accounts\views.py:85
+msgid "Registration successful. Welcome to KrishiBazaar!"
+msgstr ""
+
+#: .\bidding\forms.py:23
+msgid "Add any additional information about your bid"
+msgstr ""
+
+#: .\bidding\forms.py:27
+msgid "Bid Price (per unit)"
+msgstr ""
+
+#: .\bidding\forms.py:28 .\bidding\models.py:16 .\bidding\models.py:45
+#: .\bidding\models.py:68 .\crops\forms.py:61 .\crops\models.py:74
+#: .\templates\bidding\demand_detail.html:38
+#: .\templates\bidding\demand_list.html:29 .\templates\bidding\demands.html:31
+#: .\templates\bidding\my_bids.html:33 .\templates\bidding\my_demands.html:30
+#: .\templates\bidding\respond_demand.html:20 .\templates\crops\detail.html:39
+#: .\templates\crops\detail.html:76
+msgid "Quantity"
+msgstr ""
+
+#: .\bidding\forms.py:61 .\bidding\models.py:43 .\crops\forms.py:59
+#: .\crops\models.py:72
+msgid "Crop Name"
+msgstr ""
+
+#: .\bidding\forms.py:62 .\bidding\models.py:44 .\crops\forms.py:21
+#: .\crops\forms.py:60 .\crops\models.py:9 .\crops\models.py:73
+msgid "Description"
+msgstr ""
+
+#: .\bidding\forms.py:63
+msgid "Required Quantity"
+msgstr ""
+
+#: .\bidding\forms.py:64 .\bidding\models.py:46 .\crops\forms.py:62
+#: .\crops\models.py:75
+msgid "Unit"
+msgstr ""
+
+#: .\bidding\forms.py:65
+msgid "Maximum Price (per unit)"
+msgstr ""
+
+#: .\bidding\forms.py:66 .\bidding\models.py:48
+#: .\templates\bidding\demands.html:40 .\templates\bidding\my_demands.html:39
+#: .\templates\bidding\place_bid.html:29
+#: .\templates\bidding\respond_demand.html:31 .\templates\crops\detail.html:47
+msgid "Location"
+msgstr ""
+
+#: .\bidding\forms.py:89
+msgid "Add any additional information about your response"
+msgstr ""
+
+#: .\bidding\forms.py:93
+msgid "Price (per unit)"
+msgstr ""
+
+#: .\bidding\forms.py:94 .\templates\bidding\place_bid.html:20
+msgid "Available Quantity"
+msgstr ""
+
+#: .\bidding\models.py:8 .\crops\models.py:31
+#: .\templates\bidding\my_bids.html:24 .\templates\crops\detail.html:57
+msgid "Pending"
+msgstr ""
+
+#: .\bidding\models.py:9 .\templates\bidding\my_bids.html:24
+msgid "Accepted"
+msgstr ""
+
+#: .\bidding\models.py:10
+msgid "Rejected"
+msgstr ""
+
+#: .\bidding\models.py:15
+msgid "Bid Price"
+msgstr ""
+
+#: .\bidding\models.py:18 .\crops\models.py:78
+#: .\templates\accounts\buyer_dashboard.html:28
+#: .\templates\crops\detail.html:51
+msgid "Status"
+msgstr ""
+
+#: .\bidding\models.py:23 .\notifications\models.py:7
+msgid "Bid"
+msgstr ""
+
+#: .\bidding\models.py:24
+msgid "Bids"
+msgstr ""
+
+#: .\bidding\models.py:36 .\crops\models.py:23
+msgid "Kilogram"
+msgstr ""
+
+#: .\bidding\models.py:37 .\crops\models.py:24
+msgid "Quintal"
+msgstr ""
+
+#: .\bidding\models.py:38 .\crops\models.py:25
+msgid "Ton"
+msgstr ""
+
+#: .\bidding\models.py:39 .\crops\models.py:26
+msgid "Bag"
+msgstr ""
+
+#: .\bidding\models.py:47 .\templates\bidding\demand_detail.html:42
+msgid "Maximum Price"
+msgstr ""
+
+#: .\bidding\models.py:51
+msgid "Is Active"
+msgstr ""
+
+#: .\bidding\models.py:57 .\notifications\models.py:10
+msgid "Demand"
+msgstr ""
+
+#: .\bidding\models.py:58 .\templates\base.html:154 .\templates\base.html:244
+#: .\templates\base.html:355
+msgid "Demands"
+msgstr ""
+
+#: .\bidding\models.py:67 .\templates\crops\detail.html:43
+msgid "Price"
+msgstr ""
+
+#: .\bidding\models.py:70
+msgid "Is Accepted"
+msgstr ""
+
+#: .\bidding\models.py:75 .\notifications\models.py:11
+msgid "Demand Response"
+msgstr ""
+
+#: .\bidding\models.py:76 .\templates\accounts\farmer_dashboard.html:39
+msgid "Demand Responses"
+msgstr ""
+
+#: .\bidding\views.py:15
+msgid "Only buyers can place bids"
+msgstr ""
+
+#: .\bidding\views.py:29
+msgid "New Bid Received"
+msgstr ""
+
+#: .\bidding\views.py:30
+#, python-format
+msgid "%(buyer)s has placed a bid of ₹%(price)s per %(unit)s for your %(crop)s"
+msgstr ""
+
+#: .\bidding\views.py:40
+msgid "Your bid has been placed successfully!"
+msgstr ""
+
+#: .\bidding\views.py:79
+msgid "Demand created successfully."
+msgstr ""
+
+#: .\bidding\views.py:98
+msgid "Only farmers can respond to demands"
+msgstr ""
+
+#: .\bidding\views.py:107
+msgid "Demand Accepted"
+msgstr ""
+
+#: .\bidding\views.py:108
+#, python-format
+msgid "%(farmer)s has accepted your demand for %(crop)s"
+msgstr ""
+
+#: .\bidding\views.py:121
+msgid "You have accepted this demand. The buyer has been notified."
+msgstr ""
+
+#: .\bidding\views.py:127
+msgid "Demand Rejected"
+msgstr ""
+
+#: .\bidding\views.py:128
+#, python-format
+msgid "%(farmer)s has rejected your demand for %(crop)s"
+msgstr ""
+
+#: .\bidding\views.py:136
+msgid "You have rejected this demand. The buyer has been notified."
+msgstr ""
+
+#: .\bidding\views.py:147
+msgid "You don't have permission to accept this bid."
+msgstr ""
+
+#: .\bidding\views.py:164 .\notifications\models.py:8
+msgid "Bid Accepted"
+msgstr ""
+
+#: .\bidding\views.py:165
+#, python-format
+msgid ""
+"Your bid of ₹%(price)s per %(unit)s for %(crop)s has been accepted by "
+"%(farmer)s"
+msgstr ""
+
+#: .\bidding\views.py:175
+msgid "Bid accepted successfully!"
+msgstr ""
+
+#: .\bidding\views.py:182
+msgid "You don't have permission to reject this bid."
+msgstr ""
+
+#: .\bidding\views.py:191 .\notifications\models.py:9
+msgid "Bid Rejected"
+msgstr ""
+
+#: .\bidding\views.py:192
+#, python-format
+msgid ""
+"Your bid of ₹%(price)s per %(unit)s for %(crop)s has been rejected by "
+"%(farmer)s"
+msgstr ""
+
+#: .\bidding\views.py:202
+msgid "Bid rejected successfully!"
+msgstr ""
+
+#: .\bidding\views.py:210
+msgid "You are not authorized to accept this response"
+msgstr ""
+
+#: .\bidding\views.py:219
+msgid "Response Accepted"
+msgstr ""
+
+#: .\bidding\views.py:220
+#, python-format
+msgid "Your response to %(demand)s has been accepted by %(buyer)s"
+msgstr ""
+
+#: .\bidding\views.py:227
+msgid "Response accepted successfully!"
+msgstr ""
+
+#: .\bidding\views.py:238
+msgid "Demand updated successfully."
+msgstr ""
+
+#: .\bidding\views.py:252
+msgid "Demand deleted successfully."
+msgstr ""
+
+#: .\bidding\views.py:270
+msgid "Bid placed successfully."
+msgstr ""
+
+#: .\crops\forms.py:16
+msgid "Describe the category"
+msgstr ""
+
+#: .\crops\forms.py:20
+msgid "Category Name"
+msgstr ""
+
+#: .\crops\forms.py:38
+msgid "Describe your crop"
+msgstr ""
+
+#: .\crops\forms.py:58 .\templates\crops\detail.html:31
+msgid "Category"
+msgstr ""
+
+#: .\crops\forms.py:63 .\crops\models.py:76
+msgid "Price per Unit"
+msgstr ""
+
+#: .\crops\forms.py:64
+msgid "Crop Image"
+msgstr ""
+
+#: .\crops\management\commands\add_categories.py:11
+msgid "Fruits"
+msgstr ""
+
+#: .\crops\management\commands\add_categories.py:12
+msgid "Fresh and seasonal fruits"
+msgstr ""
+
+#: .\crops\management\commands\add_categories.py:15
+msgid "Vegetables"
+msgstr ""
+
+#: .\crops\management\commands\add_categories.py:16
+msgid "Fresh and seasonal vegetables"
+msgstr ""
+
+#: .\crops\management\commands\add_categories.py:19
+msgid "Grains"
+msgstr ""
+
+#: .\crops\management\commands\add_categories.py:20
+msgid "Cereals and staple grains"
+msgstr ""
+
+#: .\crops\management\commands\add_categories.py:23
+msgid "Pulses"
+msgstr ""
+
+#: .\crops\management\commands\add_categories.py:24
+msgid "Legumes and pulses"
+msgstr ""
+
+#: .\crops\management\commands\add_categories.py:27
+msgid "Spices"
+msgstr ""
+
+#: .\crops\management\commands\add_categories.py:28
+msgid "Aromatic spices and herbs"
+msgstr ""
+
+#: .\crops\management\commands\add_categories.py:31
+msgid "Oilseeds"
+msgstr ""
+
+#: .\crops\management\commands\add_categories.py:32
+msgid "Oil-bearing crops"
+msgstr ""
+
+#: .\crops\management\commands\add_categories.py:35
+msgid "Tubers"
+msgstr ""
+
+#: .\crops\management\commands\add_categories.py:36
+msgid "Root vegetables and tubers"
+msgstr ""
+
+#: .\crops\management\commands\add_categories.py:39
+msgid "Medicinal Plants"
+msgstr ""
+
+#: .\crops\management\commands\add_categories.py:40
+msgid "Medicinal and aromatic plants"
+msgstr ""
+
+#: .\crops\management\commands\add_categories.py:43
+msgid "Flowers"
+msgstr ""
+
+#: .\crops\management\commands\add_categories.py:44
+msgid "Ornamental and cut flowers"
+msgstr ""
+
+#: .\crops\management\commands\add_categories.py:47
+msgid "Other"
+msgstr ""
+
+#: .\crops\management\commands\add_categories.py:48
+msgid "Other agricultural products"
+msgstr ""
+
+#: .\crops\models.py:8
+msgid "Name"
+msgstr ""
+
+#: .\crops\models.py:14
+msgid "Crop Category"
+msgstr ""
+
+#: .\crops\models.py:15
+msgid "Crop Categories"
+msgstr ""
+
+#: .\crops\models.py:30 .\templates\crops\detail.html:56
+#: .\templates\crops\my_crops.html:33
+msgid "Available"
+msgstr ""
+
+#: .\crops\models.py:32 .\templates\crops\detail.html:58
+msgid "Sold"
+msgstr ""
+
+#: .\crops\models.py:77
+#: .\venv\Lib\site-packages\django\db\models\fields\files.py:420
+msgid "Image"
+msgstr ""
+
+#: .\crops\models.py:79
+msgid "Is Available"
+msgstr ""
+
+#: .\crops\models.py:82
+msgid "Soil Type"
+msgstr ""
+
+#: .\crops\models.py:83
+msgid "Climate Zone"
+msgstr ""
+
+#: .\crops\models.py:84
+msgid "Minimum pH"
+msgstr ""
+
+#: .\crops\models.py:85
+msgid "Maximum pH"
+msgstr ""
+
+#: .\crops\models.py:86
+msgid "Minimum Rainfall (mm/year)"
+msgstr ""
+
+#: .\crops\models.py:87
+msgid "Maximum Rainfall (mm/year)"
+msgstr ""
+
+#: .\crops\models.py:88
+msgid "Irrigation Method"
+msgstr ""
+
+#: .\crops\models.py:89
+msgid "Growing Season"
+msgstr ""
+
+#: .\crops\models.py:90
+msgid "Market Preference"
+msgstr ""
+
+#: .\crops\models.py:93
+msgid "Yield Potential"
+msgstr ""
+
+#: .\crops\models.py:94
+msgid "Market Demand"
+msgstr ""
+
+#: .\crops\models.py:95
+msgid "Price Stability"
+msgstr ""
+
+#: .\crops\models.py:96
+msgid "Growth Period"
+msgstr ""
+
+#: .\crops\models.py:97
+msgid "Water Requirement"
+msgstr ""
+
+#: .\crops\models.py:104
+msgid "Yield per Acre (tons)"
+msgstr ""
+
+#: .\crops\models.py:111
+msgid "Crop"
+msgstr ""
+
+#: .\crops\models.py:112 .\templates\base.html:153 .\templates\base.html:243
+#: .\templates\base.html:354
+msgid "Crops"
+msgstr ""
+
+#: .\crops\views.py:29
+msgid "The crop you are looking for does not exist."
+msgstr ""
+
+#: .\crops\views.py:45
+msgid "Your crop has been listed successfully!"
+msgstr ""
+
+#: .\crops\views.py:58
+msgid "Your crop listing has been updated!"
+msgstr ""
+
+#: .\crops\views.py:70
+msgid "Your crop listing has been deleted!"
+msgstr ""
+
+#: .\crops\views.py:74
+msgid ""
+"The crop you are trying to delete does not exist or you do not have "
+"permission to delete it."
+msgstr ""
+
+#: .\notifications\models.py:12
+msgid "System"
+msgstr ""
+
+#: .\notifications\models.py:16
+msgid "Title"
+msgstr ""
+
+#: .\notifications\models.py:18
+msgid "Type"
+msgstr ""
+
+#: .\notifications\models.py:19
+msgid "Related URL"
+msgstr ""
+
+#: .\notifications\models.py:20
+msgid "Is Read"
+msgstr ""
+
+#: .\notifications\models.py:25
+msgid "Notification"
+msgstr ""
+
+#: .\notifications\models.py:26 .\templates\notifications\list.html:5
+#: .\templates\notifications\list.html:10
+msgid "Notifications"
+msgstr ""
+
+#: .\templates\account\login.html:5
+msgid "Sign In"
+msgstr ""
+
+#: .\templates\account\login.html:12
+msgid "Sign in to your account"
+msgstr ""
+
+#: .\templates\account\login.html:15
+msgid "Or"
+msgstr ""
+
+#: .\templates\account\login.html:17
+msgid "create a new account"
+msgstr ""
+
+#: .\templates\account\login.html:44
+msgid "Remember me"
+msgstr ""
+
+#: .\templates\account\login.html:50
+msgid "Forgot your password?"
+msgstr ""
+
+#: .\templates\account\login.html:62
+msgid "Sign in"
+msgstr ""
+
+#: .\templates\account\signup.html:5
+msgid "Signup"
+msgstr ""
+
+#: .\templates\account\signup.html:12 .\templates\accounts\register.html:12
+msgid "Join KrishiBazaar"
+msgstr ""
+
+#: .\templates\account\signup.html:15 .\templates\accounts\register.html:15
+msgid "Create your account and start trading agricultural products"
+msgstr ""
+
+#: .\templates\account\signup.html:68 .\templates\accounts\register.html:67
+msgid "Already have an account?"
+msgstr ""
+
+#: .\templates\accounts\buyer_dashboard.html:5
+#: .\templates\accounts\buyer_dashboard.html:10
+msgid "Buyer Dashboard"
+msgstr ""
+
+#: .\templates\accounts\buyer_dashboard.html:15
+#: .\templates\bidding\my_bids.html:5 .\templates\bidding\my_bids.html:10
+msgid "My Bids"
+msgstr ""
+
+#: .\templates\accounts\buyer_dashboard.html:23
+#: .\templates\accounts\farmer_dashboard.html:23
+#: .\templates\accounts\farmer_dashboard.html:47
+msgid "units"
+msgstr ""
+
+#: .\templates\accounts\buyer_dashboard.html:24
+#: .\templates\accounts\farmer_dashboard.html:24
+msgid "unit"
+msgstr ""
+
+#: .\templates\accounts\buyer_dashboard.html:35
+msgid "No bids placed yet."
+msgstr ""
+
+#: .\templates\accounts\buyer_dashboard.html:41
+#: .\templates\bidding\my_demands.html:5
+#: .\templates\bidding\my_demands.html:10 .\templates\dashboard.html:81
+msgid "My Demands"
+msgstr ""
+
+#: .\templates\accounts\buyer_dashboard.html:49
+msgid "units needed"
+msgstr ""
+
+#: .\templates\accounts\buyer_dashboard.html:52
+msgid "Responses"
+msgstr ""
+
+#: .\templates\accounts\buyer_dashboard.html:58
+msgid "No demands created yet."
+msgstr ""
+
+#: .\templates\accounts\buyer_dashboard.html:65
+#: .\templates\accounts\farmer_dashboard.html:60
+msgid "Quick Actions"
+msgstr ""
+
+#: .\templates\accounts\buyer_dashboard.html:68
+#: .\templates\bidding\my_bids.html:63 .\templates\home.html:37
+msgid "Browse Crops"
+msgstr ""
+
+#: .\templates\accounts\buyer_dashboard.html:71
+#: .\templates\bidding\create_demand.html:6
+#: .\templates\bidding\create_demand.html:24
+#: .\templates\bidding\demand_list.html:14 .\templates\bidding\demands.html:13
+#: .\templates\bidding\my_demands.html:63 .\templates\dashboard.html:69
+#: .\templates\dashboard.html:75
+msgid "Create Demand"
+msgstr ""
+
+#: .\templates\accounts\buyer_dashboard.html:74
+msgid "View All Demands"
+msgstr ""
+
+#: .\templates\accounts\contact.html:6 .\templates\accounts\contact.html:11
+msgid "Contact Us"
+msgstr ""
+
+#: .\templates\accounts\contact.html:12
+msgid "Have questions or feedback? We'd love to hear from you."
+msgstr ""
+
+#: .\templates\accounts\contact.html:17
+msgid "Get in Touch"
+msgstr ""
+
+#: .\templates\accounts\contact.html:37
+msgid "Phone"
+msgstr ""
+
+#: .\templates\accounts\contact.html:57
+msgid "Send us a Message"
+msgstr ""
+
+#: .\templates\accounts\contact.html:62
+msgid "Send Message"
+msgstr ""
+
+#: .\templates\accounts\farmer_dashboard.html:5
+#: .\templates\accounts\farmer_dashboard.html:10
+msgid "Farmer Dashboard"
+msgstr ""
+
+#: .\templates\accounts\farmer_dashboard.html:15 .\templates\base.html:214
+#: .\templates\base.html:275 .\templates\crops\my_crops.html:5
+#: .\templates\crops\my_crops.html:11
+msgid "My Crops"
+msgstr ""
+
+#: .\templates\accounts\farmer_dashboard.html:30
+msgid "No crops listed yet."
+msgstr ""
+
+#: .\templates\accounts\farmer_dashboard.html:32
+#: .\templates\accounts\farmer_dashboard.html:63 .\templates\crops\form.html:6
+#: .\templates\crops\list.html:13 .\templates\crops\my_crops.html:13
+msgid "Add New Crop"
+msgstr ""
+
+#: .\templates\accounts\farmer_dashboard.html:47
+msgid "Your Response"
+msgstr ""
+
+#: .\templates\accounts\farmer_dashboard.html:53
+msgid "No demand responses yet."
+msgstr ""
+
+#: .\templates\accounts\farmer_dashboard.html:66
+msgid "View All Crops"
+msgstr ""
+
+#: .\templates\accounts\farmer_dashboard.html:69 .\templates\dashboard.html:37
+#: .\templates\dashboard.html:87
+msgid "View Demands"
+msgstr ""
+
+#: .\templates\accounts\profile.html:6 .\templates\base.html:216
+#: .\templates\base.html:277
+msgid "Profile"
+msgstr ""
+
+#: .\templates\accounts\profile.html:13
+msgid "Profile Settings"
+msgstr ""
+
+#: .\templates\accounts\profile.html:58
+msgid "I am a farmer"
+msgstr ""
+
+#: .\templates\accounts\register.html:5 .\templates\accounts\register.html:71
+msgid "Register"
+msgstr ""
+
+#: .\templates\base.html:8 .\templates\base.html:129 .\templates\base.html:148
+msgid "KRISHIBAZAAR"
+msgstr ""
+
+#: .\templates\base.html:130
+msgid "Connecting Farmers with Innovation"
+msgstr ""
+
+#: .\templates\base.html:138
+msgid "Your browser does not support the video tag."
+msgstr ""
+
+#: .\templates\base.html:147
+msgid "KRISHIBAZAAR Logo"
+msgstr ""
+
+#: .\templates\base.html:152 .\templates\base.html:242
+#: .\templates\base.html:353
+msgid "Home"
+msgstr ""
+
+#: .\templates\base.html:156 .\templates\base.html:246
+#: .\templates\base.html:357
+msgid "Recommendations"
+msgstr ""
+
+#: .\templates\base.html:158 .\templates\base.html:248
+#: .\templates\base.html:359
+msgid "Contact"
+msgstr ""
+
+#: .\templates\base.html:163 .\templates\base.html:252
+msgid "Language"
+msgstr ""
+
+#: .\templates\base.html:217 .\templates\base.html:278
+#: .\templates\dashboard.html:4
+msgid "Dashboard"
+msgstr ""
+
+#: .\templates\base.html:220 .\templates\base.html:281
+msgid "Logout"
+msgstr ""
+
+#: .\templates\base.html:226 .\templates\base.html:285
+msgid "Login"
+msgstr ""
+
+#: .\templates\base.html:311 .\templates\bidding\demand_list.html:43
+#: .\templates\bidding\demands.html:45 .\templates\bidding\my_demands.html:44
+#: .\templates\crops\list.html:61
+msgid "View Details"
+msgstr ""
+
+#: .\templates\base.html:347
+msgid "About"
+msgstr ""
+
+#: .\templates\base.html:348
+msgid ""
+"KRISHIBAZAAR is a platform connecting farmers directly with buyers, "
+"eliminating middlemen and ensuring fair prices."
+msgstr ""
+
+#: .\templates\base.html:351
+msgid "Quick Links"
+msgstr ""
+
+#: .\templates\base.html:363
+msgid "Contact Info"
+msgstr ""
+
+#: .\templates\base.html:365
+msgid "Email: info@krishibazaar.com"
+msgstr ""
+
+#: .\templates\base.html:366
+msgid "Phone: +91 1234567890"
+msgstr ""
+
+#: .\templates\base.html:367
+msgid "Address: Bangalore, Karnataka"
+msgstr ""
+
+#: .\templates\base.html:372
+msgid "KRISHIBAZAAR. All rights reserved."
+msgstr ""
+
+#: .\templates\bidding\create_demand.html:11
+msgid "Create New Demand"
+msgstr ""
+
+#: .\templates\bidding\create_demand.html:12
+msgid ""
+"Fill in the details below to create a new demand for agricultural products."
+msgstr ""
+
+#: .\templates\bidding\create_demand.html:21
+#: .\templates\bidding\place_bid.html:40
+#: .\templates\bidding\update_demand.html:21
+#: .\templates\crops\confirm_delete.html:43 .\templates\crops\form.html:25
+msgid "Cancel"
+msgstr ""
+
+#: .\templates\bidding\demand_detail.html:17
+#: .\templates\bidding\demand_list.html:40
+#: .\templates\bidding\respond_demand.html:35
+msgid "Posted by"
+msgstr ""
+
+#: .\templates\bidding\demand_detail.html:23
+#: .\templates\crops\my_crops.html:39
+msgid "Edit"
+msgstr ""
+
+#: .\templates\bidding\demand_detail.html:26
+#: .\templates\crops\confirm_delete.html:46 .\templates\crops\my_crops.html:42
+#: .\venv\Lib\site-packages\django\forms\formsets.py:499
+msgid "Delete"
+msgstr ""
+
+#: .\templates\bidding\demand_detail.html:50
+#: .\templates\bidding\place_bid.html:6 .\templates\bidding\place_bid.html:11
+#: .\templates\bidding\place_bid.html:43 .\templates\crops\detail.html:110
+msgid "Place Bid"
+msgstr ""
+
+#: .\templates\bidding\demand_list.html:5
+#: .\templates\bidding\demand_list.html:11
+msgid "Active Demands"
+msgstr ""
+
+#: .\templates\bidding\demand_list.html:33 .\templates\bidding\demands.html:35
+#: .\templates\bidding\my_demands.html:34
+#: .\templates\bidding\respond_demand.html:24
+msgid "Max Price"
+msgstr ""
+
+#: .\templates\bidding\demand_list.html:52
+msgid "No active demands found."
+msgstr ""
+
+#: .\templates\bidding\demand_list.html:55
+msgid "Create Your First Demand"
+msgstr ""
+
+#: .\templates\bidding\demands.html:5 .\templates\bidding\demands.html:10
+msgid "Market Demands"
+msgstr ""
+
+#: .\templates\bidding\demands.html:25 .\templates\bidding\my_demands.html:24
+msgid "Active"
+msgstr ""
+
+#: .\templates\bidding\demands.html:25 .\templates\bidding\my_demands.html:24
+msgid "Closed"
+msgstr ""
+
+#: .\templates\bidding\demands.html:49
+msgid "Respond"
+msgstr ""
+
+#: .\templates\bidding\demands.html:60 .\templates\bidding\my_demands.html:59
+msgid "No demands found"
+msgstr ""
+
+#: .\templates\bidding\demands.html:61
+msgid "There are currently no active demands in the market."
+msgstr ""
+
+#: .\templates\bidding\demands.html:65
+msgid "Create your first demand"
+msgstr ""
+
+#: .\templates\bidding\my_bids.html:11
+msgid "View and manage your bids on crops."
+msgstr ""
+
+#: .\templates\bidding\my_bids.html:21
+msgid "Farmer:"
+msgstr ""
+
+#: .\templates\bidding\my_bids.html:29
+msgid "Your Bid"
+msgstr ""
+
+#: .\templates\bidding\my_bids.html:38
+msgid "Total Amount"
+msgstr ""
+
+#: .\templates\bidding\my_bids.html:49
+msgid "View Crop Details"
+msgstr ""
+
+#: .\templates\bidding\my_bids.html:59
+msgid "No bids found"
+msgstr ""
+
+#: .\templates\bidding\my_bids.html:60
+msgid "You haven't placed any bids yet."
+msgstr ""
+
+#: .\templates\bidding\my_demands.html:11
+msgid "View and manage your demands for crops."
+msgstr ""
+
+#: .\templates\bidding\my_demands.html:48
+msgid "Responses:"
+msgstr ""
+
+#: .\templates\bidding\my_demands.html:60
+msgid "You haven't created any demands yet."
+msgstr ""
+
+#: .\templates\bidding\place_bid.html:12
+msgid "Place your bid for the following crop:"
+msgstr ""
+
+#: .\templates\bidding\place_bid.html:24
+msgid "Current Price"
+msgstr ""
+
+#: .\templates\bidding\respond_demand.html:5
+#: .\templates\bidding\respond_demand.html:10
+msgid "Respond to Demand"
+msgstr ""
+
+#: .\templates\bidding\respond_demand.html:11
+msgid "Review the demand details and choose to accept or reject it."
+msgstr ""
+
+#: .\templates\bidding\respond_demand.html:45
+msgid "Reject Demand"
+msgstr ""
+
+#: .\templates\bidding\respond_demand.html:48
+msgid "Accept Demand"
+msgstr ""
+
+#: .\templates\bidding\update_demand.html:6
+#: .\templates\bidding\update_demand.html:12
+#: .\templates\bidding\update_demand.html:25
+msgid "Update Demand"
+msgstr ""
+
+#: .\templates\crops\confirm_delete.html:5
+#: .\templates\crops\confirm_delete.html:11 .\templates\crops\detail.html:123
+msgid "Delete Crop"
+msgstr ""
+
+#: .\templates\crops\confirm_delete.html:14
+msgid "Are you sure you want to delete this crop?"
+msgstr ""
+
+#: .\templates\crops\confirm_delete.html:32
+msgid ""
+"This action cannot be undone. All data associated with this crop will be "
+"permanently deleted."
+msgstr ""
+
+#: .\templates\crops\detail.html:66
+msgid "Current Bids"
+msgstr ""
+
+#: .\templates\crops\detail.html:85
+msgid "Accept"
+msgstr ""
+
+#: .\templates\crops\detail.html:91
+msgid "Reject"
+msgstr ""
+
+#: .\templates\crops\detail.html:101
+msgid "No bids yet"
+msgstr ""
+
+#: .\templates\crops\detail.html:119 .\templates\crops\form.html:6
+#: .\templates\crops\form.html:13
+msgid "Edit Crop"
+msgstr ""
+
+#: .\templates\crops\form.html:15 .\templates\crops\list.html:71
+msgid "Add Your First Crop"
+msgstr ""
+
+#: .\templates\crops\form.html:29
+msgid "Update Crop"
+msgstr ""
+
+#: .\templates\crops\form.html:31
+msgid "Add Crop"
+msgstr ""
+
+#: .\templates\crops\list.html:5 .\templates\crops\list.html:10
+msgid "Available Crops"
+msgstr ""
+
+#: .\templates\crops\list.html:22
+msgid "Search crops..."
+msgstr ""
+
+#: .\templates\crops\list.html:27
+msgid "All Categories"
+msgstr ""
+
+#: .\templates\crops\list.html:36
+msgid "Search"
+msgstr ""
+
+#: .\templates\crops\list.html:68
+msgid "No crops available at the moment."
+msgstr ""
+
+#: .\templates\crops\my_crops.html:29
+msgid "Price:"
+msgstr ""
+
+#: .\templates\crops\my_crops.html:30
+msgid "Quantity:"
+msgstr ""
+
+#: .\templates\crops\my_crops.html:31
+msgid "Status:"
+msgstr ""
+
+#: .\templates\crops\my_crops.html:33
+msgid "Sold Out"
+msgstr ""
+
+#: .\templates\crops\my_crops.html:50
+msgid "You haven't listed any crops yet."
+msgstr ""
+
+#: .\templates\crops\my_crops.html:52
+msgid "Add your first crop"
+msgstr ""
+
+#: .\templates\crops\my_crops.html:63
+msgid "Get Crop Recommendations"
+msgstr ""
+
+#: .\templates\crops\my_crops.html:70 .\templates\crops\recommendation.html:91
+#: .\templates\dashboard.html:49
+msgid "Get Recommendations"
+msgstr ""
+
+#: .\templates\crops\my_crops.html:78
+msgid "Generating recommendations..."
+msgstr ""
+
+#: .\templates\crops\recommendation.html:5
+msgid "Crop Recommendation"
+msgstr ""
+
+#: .\templates\crops\recommendation.html:57
+msgid "Crop Recommendation System"
+msgstr ""
+
+#: .\templates\crops\recommendation.html:109
+msgid "Crop Suitability Analysis"
+msgstr ""
+
+#: .\templates\crops\recommendation.html:115
+msgid "Financial Analysis"
+msgstr ""
+
+#: .\templates\crops\recommendation.html:121
+msgid "Market Analysis"
+msgstr ""
+
+#: .\templates\crops\recommendation.html:127
+msgid "Recommended Crops"
+msgstr ""
+
+#: .\templates\dashboard.html:12
+msgid "Welcome to your Dashboard"
+msgstr ""
+
+#: .\templates\dashboard.html:19
+msgid "Crop Management"
+msgstr ""
+
+#: .\templates\dashboard.html:22
+msgid "Manage your crops and get recommendations"
+msgstr ""
+
+#: .\templates\dashboard.html:25
+msgid "View Crops"
+msgstr ""
+
+#: .\templates\dashboard.html:31 .\templates\dashboard.html:57
+msgid "Marketplace"
+msgstr ""
+
+#: .\templates\dashboard.html:34
+msgid "Sell your produce and respond to demands"
+msgstr ""
+
+#: .\templates\dashboard.html:43
+msgid "Crop Recommendations"
+msgstr ""
+
+#: .\templates\dashboard.html:46
+msgid "Get personalized crop recommendations"
+msgstr ""
+
+#: .\templates\dashboard.html:60
+msgid "Browse and purchase agricultural products"
+msgstr ""
+
+#: .\templates\dashboard.html:63
+msgid "View Products"
+msgstr ""
+
+#: .\templates\dashboard.html:72
+msgid "Post your requirements for agricultural products"
+msgstr ""
+
+#: .\templates\dashboard.html:84
+msgid "View and manage your posted demands"
+msgstr ""
+
+#: .\templates\home.html:5
+msgid "Welcome to KRISHIBAZAAR"
+msgstr ""
+
+#: .\templates\home.html:12
+msgid "Welcome to KRISHIBAZAAR! 🌾"
+msgstr ""
+
+#: .\templates\home.html:13
+msgid "Connect with buyers and manage your products easily."
+msgstr ""
+
+#: .\templates\home.html:23
+msgid "Connecting Farmers"
+msgstr ""
+
+#: .\templates\home.html:24
+msgid "Directly to Buyers"
+msgstr ""
+
+#: .\templates\home.html:27
+msgid ""
+"KRISHIBAZAAR eliminates middlemen, ensuring fair prices for farmers and "
+"quality produce for buyers. Join our platform to experience transparent and "
+"efficient agricultural trading."
+msgstr ""
+
+#: .\templates\home.html:32
+msgid "Get Started"
+msgstr ""
+
+#: .\templates\home.html:51
+msgid "Features"
+msgstr ""
+
+#: .\templates\home.html:53
+msgid "Why Choose KRISHIBAZAAR?"
+msgstr ""
+
+#: .\templates\home.html:56
+msgid ""
+"Our platform offers unique features designed to benefit both farmers and "
+"buyers."
+msgstr ""
+
+#: .\templates\home.html:70
+msgid "For Farmers"
+msgstr ""
+
+#: .\templates\home.html:72
+msgid "Direct access to buyers"
+msgstr ""
+
+#: .\templates\home.html:73
+msgid "Fair market prices"
+msgstr ""
+
+#: .\templates\home.html:74
+msgid "Easy crop listing"
+msgstr ""
+
+#: .\templates\home.html:75
+msgid "Real-time bidding"
+msgstr ""
+
+#: .\templates\home.html:76
+msgid "Secure payments"
+msgstr ""
+
+#: .\templates\home.html:89
+msgid "For Buyers"
+msgstr ""
+
+#: .\templates\home.html:91
+msgid "Direct from farm"
+msgstr ""
+
+#: .\templates\home.html:92
+msgid "Quality assurance"
+msgstr ""
+
+#: .\templates\home.html:93
+msgid "Competitive pricing"
+msgstr ""
+
+#: .\templates\home.html:94
+msgid "Bulk purchasing"
+msgstr ""
+
+#: .\templates\home.html:95
+msgid "Demand raising"
+msgstr ""
+
+#: .\templates\home.html:110
+msgid "Stay Updated with Market Trends"
+msgstr ""
+
+#: .\templates\home.html:113
+msgid ""
+"Get real-time updates on crop prices, market demands, and agricultural news "
+"to make informed decisions."
+msgstr ""
+
+#: .\templates\home.html:117
+msgid "View Market Updates"
+msgstr ""
+
+#: .\templates\home.html:123
+msgid "Market Trend 1"
+msgstr ""
+
+#: .\templates\home.html:126
+msgid "Market Trend 2"
+msgstr ""
+
+#: .\templates\home.html:129
+msgid "Market Trend 3"
+msgstr ""
+
+#: .\templates\home.html:132
+msgid "Market Trend 4"
+msgstr ""
+
+#: .\templates\notifications\list.html:15
+msgid "Mark all as read"
+msgstr ""
+
+#: .\templates\notifications\list.html:49
+msgid "No notifications"
+msgstr ""
+
+#: .\templates\notifications\list.html:50
+msgid "You don't have any notifications yet."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\contrib\messages\apps.py:16
+msgid "Messages"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\contrib\sitemaps\apps.py:8
+msgid "Site Maps"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\contrib\staticfiles\apps.py:9
+msgid "Static Files"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\contrib\syndication\apps.py:7
+msgid "Syndication"
+msgstr ""
+
+#. Translators: String used to replace omitted page numbers in elided page
+#. range generated by paginators, e.g. [1, 2, '…', 5, 6, 7, '…', 9, 10].
+#: .\venv\Lib\site-packages\django\core\paginator.py:30
+msgid "…"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\core\paginator.py:32
+msgid "That page number is not an integer"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\core\paginator.py:33
+msgid "That page number is less than 1"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\core\paginator.py:34
+msgid "That page contains no results"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\core\validators.py:22
+msgid "Enter a valid value."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\core\validators.py:70
+msgid "Enter a valid domain name."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\core\validators.py:153
+#: .\venv\Lib\site-packages\django\forms\fields.py:775
+msgid "Enter a valid URL."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\core\validators.py:200
+msgid "Enter a valid integer."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\core\validators.py:211
+msgid "Enter a valid email address."
+msgstr ""
+
+#. Translators: "letters" means latin letters: a-z and A-Z.
+#: .\venv\Lib\site-packages\django\core\validators.py:289
+msgid ""
+"Enter a valid “slug” consisting of letters, numbers, underscores or hyphens."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\core\validators.py:297
+msgid ""
+"Enter a valid “slug” consisting of Unicode letters, numbers, underscores, or "
+"hyphens."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\core\validators.py:309
+#: .\venv\Lib\site-packages\django\core\validators.py:318
+#: .\venv\Lib\site-packages\django\core\validators.py:332
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:2220
+#, python-format
+msgid "Enter a valid %(protocol)s address."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\core\validators.py:311
+msgid "IPv4"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\core\validators.py:320
+#: .\venv\Lib\site-packages\django\utils\ipv6.py:43
+msgid "IPv6"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\core\validators.py:334
+msgid "IPv4 or IPv6"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\core\validators.py:375
+msgid "Enter only digits separated by commas."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\core\validators.py:381
+#, python-format
+msgid "Ensure this value is %(limit_value)s (it is %(show_value)s)."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\core\validators.py:416
+#, python-format
+msgid "Ensure this value is less than or equal to %(limit_value)s."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\core\validators.py:425
+#, python-format
+msgid "Ensure this value is greater than or equal to %(limit_value)s."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\core\validators.py:434
+#, python-format
+msgid "Ensure this value is a multiple of step size %(limit_value)s."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\core\validators.py:441
+#, python-format
+msgid ""
+"Ensure this value is a multiple of step size %(limit_value)s, starting from "
+"%(offset)s, e.g. %(offset)s, %(valid_value1)s, %(valid_value2)s, and so on."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\core\validators.py:473
+#, python-format
+msgid ""
+"Ensure this value has at least %(limit_value)d character (it has "
+"%(show_value)d)."
+msgid_plural ""
+"Ensure this value has at least %(limit_value)d characters (it has "
+"%(show_value)d)."
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\venv\Lib\site-packages\django\core\validators.py:491
+#, python-format
+msgid ""
+"Ensure this value has at most %(limit_value)d character (it has "
+"%(show_value)d)."
+msgid_plural ""
+"Ensure this value has at most %(limit_value)d characters (it has "
+"%(show_value)d)."
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\venv\Lib\site-packages\django\core\validators.py:514
+#: .\venv\Lib\site-packages\django\forms\fields.py:366
+#: .\venv\Lib\site-packages\django\forms\fields.py:405
+msgid "Enter a number."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\core\validators.py:516
+#, python-format
+msgid "Ensure that there are no more than %(max)s digit in total."
+msgid_plural "Ensure that there are no more than %(max)s digits in total."
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\venv\Lib\site-packages\django\core\validators.py:521
+#, python-format
+msgid "Ensure that there are no more than %(max)s decimal place."
+msgid_plural "Ensure that there are no more than %(max)s decimal places."
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\venv\Lib\site-packages\django\core\validators.py:526
+#, python-format
+msgid ""
+"Ensure that there are no more than %(max)s digit before the decimal point."
+msgid_plural ""
+"Ensure that there are no more than %(max)s digits before the decimal point."
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\venv\Lib\site-packages\django\core\validators.py:597
+#, python-format
+msgid ""
+"File extension “%(extension)s” is not allowed. Allowed extensions are: "
+"%(allowed_extensions)s."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\core\validators.py:659
+msgid "Null characters are not allowed."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\base.py:1600
+#: .\venv\Lib\site-packages\django\forms\models.py:908
+msgid "and"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\base.py:1602
+#, python-format
+msgid "%(model_name)s with this %(field_labels)s already exists."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\constraints.py:22
+#, python-format
+msgid "Constraint “%(name)s” is violated."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:134
+#, python-format
+msgid "Value %(value)r is not a valid choice."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:135
+msgid "This field cannot be null."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:136
+msgid "This field cannot be blank."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:137
+#, python-format
+msgid "%(model_name)s with this %(field_label)s already exists."
+msgstr ""
+
+#. Translators: The 'lookup_type' is one of 'date', 'year' or
+#. 'month'. Eg: "Title must be unique for pub_date year"
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:141
+#, python-format
+msgid ""
+"%(field_label)s must be unique for %(date_field_label)s %(lookup_type)s."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:180
+#, python-format
+msgid "Field of type: %(field_type)s"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1162
+#, python-format
+msgid "“%(value)s” value must be either True or False."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1163
+#, python-format
+msgid "“%(value)s” value must be either True, False, or None."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1165
+msgid "Boolean (Either True or False)"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1215
+#, python-format
+msgid "String (up to %(max_length)s)"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1217
+msgid "String (unlimited)"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1326
+msgid "Comma-separated integers"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1427
+#, python-format
+msgid ""
+"“%(value)s” value has an invalid date format. It must be in YYYY-MM-DD "
+"format."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1431
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1566
+#, python-format
+msgid ""
+"“%(value)s” value has the correct format (YYYY-MM-DD) but it is an invalid "
+"date."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1435
+msgid "Date (without time)"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1562
+#, python-format
+msgid ""
+"“%(value)s” value has an invalid format. It must be in YYYY-MM-DD HH:MM[:ss[."
+"uuuuuu]][TZ] format."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1570
+#, python-format
+msgid ""
+"“%(value)s” value has the correct format (YYYY-MM-DD HH:MM[:ss[.uuuuuu]]"
+"[TZ]) but it is an invalid date/time."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1575
+msgid "Date (with time)"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1702
+#, python-format
+msgid "“%(value)s” value must be a decimal number."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1704
+msgid "Decimal number"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1864
+#, python-format
+msgid ""
+"“%(value)s” value has an invalid format. It must be in [DD] [[HH:]MM:]ss[."
+"uuuuuu] format."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1868
+msgid "Duration"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1945
+msgid "File path"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:2023
+#, python-format
+msgid "“%(value)s” value must be a float."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:2025
+msgid "Floating point number"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:2065
+#, python-format
+msgid "“%(value)s” value must be an integer."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:2067
+msgid "Integer"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:2163
+msgid "Big (8 byte) integer"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:2180
+msgid "Small integer"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:2188
+msgid "IPv4 address"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:2219
+msgid "IP address"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:2310
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:2311
+#, python-format
+msgid "“%(value)s” value must be either None, True or False."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:2313
+msgid "Boolean (Either True, False or None)"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:2364
+msgid "Positive big integer"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:2379
+msgid "Positive integer"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:2394
+msgid "Positive small integer"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:2410
+#, python-format
+msgid "Slug (up to %(max_length)s)"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:2446
+msgid "Text"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:2526
+#, python-format
+msgid ""
+"“%(value)s” value has an invalid format. It must be in HH:MM[:ss[.uuuuuu]] "
+"format."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:2530
+#, python-format
+msgid ""
+"“%(value)s” value has the correct format (HH:MM[:ss[.uuuuuu]]) but it is an "
+"invalid time."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:2534
+msgid "Time"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:2642
+msgid "URL"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:2666
+msgid "Raw binary data"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:2731
+#, python-format
+msgid "“%(value)s” is not a valid UUID."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:2733
+msgid "Universally unique identifier"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\files.py:244
+msgid "File"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\json.py:24
+msgid "A JSON object"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\json.py:26
+msgid "Value must be valid JSON."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\related.py:978
+#, python-format
+msgid "%(model)s instance with %(field)s %(value)r is not a valid choice."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\related.py:981
+msgid "Foreign Key (type determined by related field)"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\related.py:1275
+msgid "One-to-one relationship"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\related.py:1332
+#, python-format
+msgid "%(from)s-%(to)s relationship"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\related.py:1334
+#, python-format
+msgid "%(from)s-%(to)s relationships"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\related.py:1382
+msgid "Many-to-many relationship"
+msgstr ""
+
+#. Translators: If found as last label character, these punctuation
+#. characters will prevent the default label_suffix to be appended to the label
+#: .\venv\Lib\site-packages\django\forms\boundfield.py:185
+msgid ":?.!"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\fields.py:95
+msgid "This field is required."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\fields.py:315
+msgid "Enter a whole number."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\fields.py:486
+#: .\venv\Lib\site-packages\django\forms\fields.py:1267
+msgid "Enter a valid date."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\fields.py:509
+#: .\venv\Lib\site-packages\django\forms\fields.py:1268
+msgid "Enter a valid time."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\fields.py:536
+msgid "Enter a valid date/time."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\fields.py:570
+msgid "Enter a valid duration."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\fields.py:571
+#, python-brace-format
+msgid "The number of days must be between {min_days} and {max_days}."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\fields.py:640
+msgid "No file was submitted. Check the encoding type on the form."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\fields.py:641
+msgid "No file was submitted."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\fields.py:642
+msgid "The submitted file is empty."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\fields.py:644
+#, python-format
+msgid "Ensure this filename has at most %(max)d character (it has %(length)d)."
+msgid_plural ""
+"Ensure this filename has at most %(max)d characters (it has %(length)d)."
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\venv\Lib\site-packages\django\forms\fields.py:649
+msgid "Please either submit a file or check the clear checkbox, not both."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\fields.py:717
+msgid ""
+"Upload a valid image. The file you uploaded was either not an image or a "
+"corrupted image."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\fields.py:889
+#: .\venv\Lib\site-packages\django\forms\fields.py:975
+#: .\venv\Lib\site-packages\django\forms\models.py:1592
+#, python-format
+msgid "Select a valid choice. %(value)s is not one of the available choices."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\fields.py:977
+#: .\venv\Lib\site-packages\django\forms\fields.py:1096
+#: .\venv\Lib\site-packages\django\forms\models.py:1590
+msgid "Enter a list of values."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\fields.py:1097
+msgid "Enter a complete value."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\fields.py:1339
+msgid "Enter a valid UUID."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\fields.py:1369
+msgid "Enter a valid JSON."
+msgstr ""
+
+#. Translators: This is the default suffix added to form field labels
+#: .\venv\Lib\site-packages\django\forms\forms.py:97
+msgid ":"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\forms.py:239
+#, python-format
+msgid "(Hidden field %(name)s) %(error)s"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\formsets.py:61
+#, python-format
+msgid ""
+"ManagementForm data is missing or has been tampered with. Missing fields: "
+"%(field_names)s. You may need to file a bug report if the issue persists."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\formsets.py:65
+#, python-format
+msgid "Please submit at most %(num)d form."
+msgid_plural "Please submit at most %(num)d forms."
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\venv\Lib\site-packages\django\forms\formsets.py:70
+#, python-format
+msgid "Please submit at least %(num)d form."
+msgid_plural "Please submit at least %(num)d forms."
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\venv\Lib\site-packages\django\forms\formsets.py:484
+#: .\venv\Lib\site-packages\django\forms\formsets.py:491
+msgid "Order"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\models.py:901
+#, python-format
+msgid "Please correct the duplicate data for %(field)s."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\models.py:906
+#, python-format
+msgid "Please correct the duplicate data for %(field)s, which must be unique."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\models.py:913
+#, python-format
+msgid ""
+"Please correct the duplicate data for %(field_name)s which must be unique "
+"for the %(lookup)s in %(date_field)s."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\models.py:922
+msgid "Please correct the duplicate values below."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\models.py:1359
+msgid "The inline value did not match the parent instance."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\models.py:1450
+msgid "Select a valid choice. That choice is not one of the available choices."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\models.py:1594
+#, python-format
+msgid "“%(pk)s” is not a valid value."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\utils.py:229
+#, python-format
+msgid ""
+"%(datetime)s couldn’t be interpreted in time zone %(current_timezone)s; it "
+"may be ambiguous or it may not exist."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\widgets.py:527
+msgid "Clear"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\widgets.py:528
+msgid "Currently"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\widgets.py:529
+msgid "Change"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\widgets.py:866
+msgid "Unknown"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\widgets.py:867
+msgid "Yes"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\widgets.py:868
+msgid "No"
+msgstr ""
+
+#. Translators: Please do not add spaces around commas.
+#: .\venv\Lib\site-packages\django\template\defaultfilters.py:873
+msgid "yes,no,maybe"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\template\defaultfilters.py:903
+#: .\venv\Lib\site-packages\django\template\defaultfilters.py:920
+#, python-format
+msgid "%(size)d byte"
+msgid_plural "%(size)d bytes"
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\venv\Lib\site-packages\django\template\defaultfilters.py:922
+#, python-format
+msgid "%s KB"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\template\defaultfilters.py:924
+#, python-format
+msgid "%s MB"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\template\defaultfilters.py:926
+#, python-format
+msgid "%s GB"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\template\defaultfilters.py:928
+#, python-format
+msgid "%s TB"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\template\defaultfilters.py:930
+#, python-format
+msgid "%s PB"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dateformat.py:74
+msgid "p.m."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dateformat.py:75
+msgid "a.m."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dateformat.py:80
+msgid "PM"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dateformat.py:81
+msgid "AM"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dateformat.py:153
+msgid "midnight"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dateformat.py:155
+msgid "noon"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:7
+msgid "Monday"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:8
+msgid "Tuesday"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:9
+msgid "Wednesday"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:10
+msgid "Thursday"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:11
+msgid "Friday"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:12
+msgid "Saturday"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:13
+msgid "Sunday"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:16
+msgid "Mon"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:17
+msgid "Tue"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:18
+msgid "Wed"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:19
+msgid "Thu"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:20
+msgid "Fri"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:21
+msgid "Sat"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:22
+msgid "Sun"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:25
+msgid "January"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:26
+msgid "February"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:27
+msgid "March"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:28
+msgid "April"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:29
+msgid "May"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:30
+msgid "June"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:31
+msgid "July"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:32
+msgid "August"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:33
+msgid "September"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:34
+msgid "October"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:35
+msgid "November"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:36
+msgid "December"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:39
+msgid "jan"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:40
+msgid "feb"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:41
+msgid "mar"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:42
+msgid "apr"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:43
+msgid "may"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:44
+msgid "jun"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:45
+msgid "jul"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:46
+msgid "aug"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:47
+msgid "sep"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:48
+msgid "oct"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:49
+msgid "nov"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:50
+msgid "dec"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:53
+msgctxt "abbrev. month"
+msgid "Jan."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:54
+msgctxt "abbrev. month"
+msgid "Feb."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:55
+msgctxt "abbrev. month"
+msgid "March"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:56
+msgctxt "abbrev. month"
+msgid "April"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:57
+msgctxt "abbrev. month"
+msgid "May"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:58
+msgctxt "abbrev. month"
+msgid "June"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:59
+msgctxt "abbrev. month"
+msgid "July"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:60
+msgctxt "abbrev. month"
+msgid "Aug."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:61
+msgctxt "abbrev. month"
+msgid "Sept."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:62
+msgctxt "abbrev. month"
+msgid "Oct."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:63
+msgctxt "abbrev. month"
+msgid "Nov."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:64
+msgctxt "abbrev. month"
+msgid "Dec."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:67
+msgctxt "alt. month"
+msgid "January"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:68
+msgctxt "alt. month"
+msgid "February"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:69
+msgctxt "alt. month"
+msgid "March"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:70
+msgctxt "alt. month"
+msgid "April"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:71
+msgctxt "alt. month"
+msgid "May"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:72
+msgctxt "alt. month"
+msgid "June"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:73
+msgctxt "alt. month"
+msgid "July"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:74
+msgctxt "alt. month"
+msgid "August"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:75
+msgctxt "alt. month"
+msgid "September"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:76
+msgctxt "alt. month"
+msgid "October"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:77
+msgctxt "alt. month"
+msgid "November"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:78
+msgctxt "alt. month"
+msgid "December"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\ipv6.py:20
+msgid "This is not a valid IPv6 address."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\text.py:67
+#, python-format
+msgctxt "String to return when truncating text"
+msgid "%(truncated_text)s…"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\text.py:278
+msgid "or"
+msgstr ""
+
+#. Translators: This string is used as a separator between list elements
+#: .\venv\Lib\site-packages\django\utils\text.py:297
+#: .\venv\Lib\site-packages\django\utils\timesince.py:135
+msgid ", "
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\timesince.py:8
+#, python-format
+msgid "%(num)d year"
+msgid_plural "%(num)d years"
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\venv\Lib\site-packages\django\utils\timesince.py:9
+#, python-format
+msgid "%(num)d month"
+msgid_plural "%(num)d months"
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\venv\Lib\site-packages\django\utils\timesince.py:10
+#, python-format
+msgid "%(num)d week"
+msgid_plural "%(num)d weeks"
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\venv\Lib\site-packages\django\utils\timesince.py:11
+#, python-format
+msgid "%(num)d day"
+msgid_plural "%(num)d days"
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\venv\Lib\site-packages\django\utils\timesince.py:12
+#, python-format
+msgid "%(num)d hour"
+msgid_plural "%(num)d hours"
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\venv\Lib\site-packages\django\utils\timesince.py:13
+#, python-format
+msgid "%(num)d minute"
+msgid_plural "%(num)d minutes"
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\venv\Lib\site-packages\django\views\csrf.py:29
+msgid "Forbidden"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\csrf.py:30
+msgid "CSRF verification failed. Request aborted."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\csrf.py:34
+msgid ""
+"You are seeing this message because this HTTPS site requires a “Referer "
+"header” to be sent by your web browser, but none was sent. This header is "
+"required for security reasons, to ensure that your browser is not being "
+"hijacked by third parties."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\csrf.py:40
+msgid ""
+"If you have configured your browser to disable “Referer” headers, please re-"
+"enable them, at least for this site, or for HTTPS connections, or for “same-"
+"origin” requests."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\csrf.py:45
+msgid ""
+"If you are using the <meta name=\"referrer\" content=\"no-referrer\"> tag or "
+"including the “Referrer-Policy: no-referrer” header, please remove them. The "
+"CSRF protection requires the “Referer” header to do strict referer checking. "
+"If you’re concerned about privacy, use alternatives like <a rel=\"noreferrer"
+"\" …> for links to third-party sites."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\csrf.py:54
+msgid ""
+"You are seeing this message because this site requires a CSRF cookie when "
+"submitting forms. This cookie is required for security reasons, to ensure "
+"that your browser is not being hijacked by third parties."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\csrf.py:60
+msgid ""
+"If you have configured your browser to disable cookies, please re-enable "
+"them, at least for this site, or for “same-origin” requests."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\csrf.py:66
+msgid "More information is available with DEBUG=True."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\generic\dates.py:44
+msgid "No year specified"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\generic\dates.py:64
+#: .\venv\Lib\site-packages\django\views\generic\dates.py:115
+#: .\venv\Lib\site-packages\django\views\generic\dates.py:214
+msgid "Date out of range"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\generic\dates.py:94
+msgid "No month specified"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\generic\dates.py:147
+msgid "No day specified"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\generic\dates.py:194
+msgid "No week specified"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\generic\dates.py:353
+#: .\venv\Lib\site-packages\django\views\generic\dates.py:384
+#, python-format
+msgid "No %(verbose_name_plural)s available"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\generic\dates.py:680
+#, python-format
+msgid ""
+"Future %(verbose_name_plural)s not available because %(class_name)s."
+"allow_future is False."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\generic\dates.py:720
+#, python-format
+msgid "Invalid date string “%(datestr)s” given format “%(format)s”"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\generic\detail.py:56
+#, python-format
+msgid "No %(verbose_name)s found matching the query"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\generic\list.py:70
+msgid "Page is not “last”, nor can it be converted to an int."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\generic\list.py:77
+#, python-format
+msgid "Invalid page (%(page_number)s): %(message)s"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\generic\list.py:173
+#, python-format
+msgid "Empty list and “%(class_name)s.allow_empty” is False."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\static.py:49
+msgid "Directory indexes are not allowed here."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\static.py:51
+#, python-format
+msgid "“%(path)s” does not exist"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\static.py:68
+#: .\venv\Lib\site-packages\django\views\templates\directory_index.html:8
+#: .\venv\Lib\site-packages\django\views\templates\directory_index.html:11
+#, python-format
+msgid "Index of %(directory)s"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\templates\default_urlconf.html:7
+#: .\venv\Lib\site-packages\django\views\templates\default_urlconf.html:204
+msgid "The install worked successfully! Congratulations!"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\templates\default_urlconf.html:206
+#, python-format
+msgid ""
+"View <a href=\"https://docs.djangoproject.com/en/%(version)s/releases/\" "
+"target=\"_blank\" rel=\"noopener\">release notes</a> for Django %(version)s"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\templates\default_urlconf.html:208
+#, python-format
+msgid ""
+"You are seeing this page because <a href=\"https://docs.djangoproject.com/en/"
+"%(version)s/ref/settings/#debug\" target=\"_blank\" rel=\"noopener"
+"\">DEBUG=True</a> is in your settings file and you have not configured any "
+"URLs."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\templates\default_urlconf.html:217
+msgid "Django Documentation"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\templates\default_urlconf.html:218
+msgid "Topics, references, &amp; how-to’s"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\templates\default_urlconf.html:226
+msgid "Tutorial: A Polling App"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\templates\default_urlconf.html:227
+msgid "Get started with Django"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\templates\default_urlconf.html:235
+msgid "Django Community"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\templates\default_urlconf.html:236
+msgid "Connect, get help, or contribute"
+msgstr ""
+
+#: .\venv\Lib\site-packages\modeltranslation\widgets.py:32
+msgid "None"
+msgstr ""
