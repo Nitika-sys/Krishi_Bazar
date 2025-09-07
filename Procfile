@@ -1,1 +1,1 @@
-web: gunicorn krishibazaar.wsgi:application --log-file -
+web: gunicorn krishibazaar.wsgi:application

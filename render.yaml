@@ -12,10 +12,4 @@ services:
       - key: ALLOWED_HOSTS
         value: .onrender.com
       - key: DATABASE_URL
-        fromDatabase:
-          name: krishibazaar-db
-          property: connectionString
-
-databases:
-  - name: krishibazaar-db
-    plan: free
+        value: postgresql://krishi_bazar_user:uja1zCHXoPsJ27l2y8WQPUiEt0IPpKdM@dpg-d2upr60gjchc73aivc90-a.singapore-postgres.render.com/krishi_bazar
