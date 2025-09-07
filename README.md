@@ -37,7 +37,6 @@ This platform aims to eliminate middlemen in agricultural trade, providing farme
 ├── templates/           # HTML templates
 └── manage.py            # Django management script
 ```
-
 ## Setup Instructions
 
 ### Prerequisites
@@ -48,22 +47,78 @@ This platform aims to eliminate middlemen in agricultural trade, providing farme
 ### Installation
 
 1. Clone the repository:
+```
+git clone https://github.com/yourusername/Krishi-Bazar.git
+```
+
+## Deployment
+
+### Deploying to Render
+
+1. Create a Render account at [render.com](https://render.com)
+
+2. Create a new Web Service and connect your GitHub repository
+
+3. Configure the service:
+   - Build Command: `./build.sh`
+   - Start Command: `gunicorn krishibazaar.wsgi:application`
+
+4. Add environment variables:
+   - `SECRET_KEY`: Your Django secret key
+   - `DEBUG`: Set to 'False' for production
+   - `ALLOWED_HOSTS`: Add your Render domain
+   - `DATABASE_URL`: Your database connection string
+
+5. Create a PostgreSQL database in Render and link it to your web service
+
+6. Make sure the build.sh file is executable:
    ```
-   git clone https://github.com/yourusername/Krishi-Bazar.git
+   chmod +x build.sh
+   ```
+
+7. Deploy your application
+2. Navigate to the project directory:
+   ```
    cd Krishi-Bazar
    ```
 
-2. Create and activate a virtual environment:
+3. Create a virtual environment:
    ```
    python -m venv venv
-   # On Windows
-   venv\Scripts\activate
-   # On macOS/Linux
-   source venv/bin/activate
    ```
 
-3. Install dependencies:
+4. Activate the virtual environment:
+   - Windows: `venv\Scripts\activate`
+   - macOS/Linux: `source venv/bin/activate`
+
+5. Install dependencies:
    ```
+   pip install -r requirements.txt
+   ```
+
+6. Create a .env file based on .env.example:
+   ```
+   cp .env.example .env
+   ```
+
+7. Run migrations:
+   ```
+   python manage.py migrate
+   ```
+
+8. Create a superuser:
+   ```
+   python manage.py createsuperuser
+   ```
+
+9. Run the development server:
+   ```
+   python manage.py runserver
+   ```
+
+10. Access the application at http://127.0.0.1:8000/
+
+
    pip install -r requirements.txt
    ```
 
