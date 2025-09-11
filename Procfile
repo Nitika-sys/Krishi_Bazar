@@ -1,1 +1,1 @@
-web: bash -lc "python manage.py collectstatic --noinput && python manage.py migrate --noinput && gunicorn krishibazaar.wsgi:application"
+web: gunicorn krishibazaar.wsgi:application
