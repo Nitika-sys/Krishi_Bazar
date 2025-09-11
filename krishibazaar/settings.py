@@ -32,6 +32,11 @@ SECRET_KEY = os.environ.get('SECRET_KEY', 'django-insecure-your-secret-key-here'
 DEBUG = os.environ.get('DEBUG', 'False').lower() == 'true'
 
 ALLOWED_HOSTS = os.environ.get('ALLOWED_HOSTS', 'localhost,127.0.0.1,.onrender.com').split(',')
+# Render requires CSRF trusted origins for custom domains and onrender.com
+CSRF_TRUSTED_ORIGINS = [
+    'https://*.onrender.com',
+    *[f'https://{host}' for host in ALLOWED_HOSTS if host and host not in ('localhost', '127.0.0.1') and not host.startswith('.')]
+]
 
 
 # Application definition
@@ -104,6 +109,7 @@ DATABASES = {
         default='sqlite:///' + str(BASE_DIR / 'db.sqlite3'),
         conn_max_age=600,
         conn_health_checks=True,
+        ssl_require=not DEBUG,
     )
 }
 
