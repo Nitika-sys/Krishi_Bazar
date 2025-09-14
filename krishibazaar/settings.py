@@ -35,6 +35,18 @@ ALLOWED_HOSTS = os.environ.get('ALLOWED_HOSTS', 'localhost,127.0.0.1').split(','
 # Remove any empty strings from the list
 ALLOWED_HOSTS = [host.strip() for host in ALLOWED_HOSTS if host.strip()]
 
+# For production on Render, allow all onrender.com subdomains
+if not DEBUG:
+    # Add specific known domains
+    ALLOWED_HOSTS.extend([
+        'krishi-bazaar-qj7z.onrender.com',
+        'krishi-bazar-za8m.onrender.com',
+        'krishi-bazar-2.onrender.com',
+    ])
+    
+    # Add wildcard for any onrender.com subdomain
+    ALLOWED_HOSTS.append('*.onrender.com')
+
 
 # Application definition
 
