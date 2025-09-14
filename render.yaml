@@ -4,23 +4,21 @@ services:
     name: krishibazaar-web
     env: python
     plan: starter
-    buildCommand: pip install -r requirements-prod.txt && python manage.py collectstatic --noinput && python manage.py migrate
-    startCommand: gunicorn krishibazaar.wsgi:application
+    buildCommand: pip install -r requirements.txt && python manage.py collectstatic --noinput && python manage.py migrate
+    startCommand: gunicorn krishibazaar.wsgi:application --bind 0.0.0.0:$PORT
     envVars:
       - key: PYTHON_VERSION
-        value: 3.11.0
+        value: 3.11.6
       - key: DJANGO_SETTINGS_MODULE
-        value: krishibazaar.settings_production
+        value: krishibazaar.settings
       - key: SECRET_KEY
         generateValue: true
       - key: DEBUG
         value: False
       - key: ALLOWED_HOSTS
-        value: krishibazaar.onrender.com
+        value: *.onrender.com
       - key: DATABASE_URL
-        fromDatabase:
-          name: krishibazaar-db
-          property: connectionString
+        value: postgresql://krishi_bazar_0nd1_user:z2lmmRte3MNn1wcDwFu5DqKmdmLHwDvU@dpg-d3388jripnbc73dongn0-a.oregon-postgres.render.com/krishi_bazar_0nd1
       - key: STATIC_URL
         value: /static/
       - key: MEDIA_URL
@@ -35,12 +33,3 @@ services:
       mountPath: /opt/render/project/src/media
       sizeGB: 1
 
-  # Database service
-  - type: pserv
-    name: krishibazaar-db
-    env: postgresql
-    plan: starter
-    disk:
-      name: krishibazaar-db-disk
-      mountPath: /var/lib/postgresql/data
-      sizeGB: 1

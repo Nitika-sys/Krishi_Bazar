@@ -11,21 +11,27 @@ https://docs.djangoproject.com/en/5.0/ref/settings/
 """
 
 import os
+import dj_database_url
 from pathlib import Path
+from dotenv import load_dotenv
 
-from dotenv import load_dotenv\nimport dj_database_url\nload_dotenv()\n\n# Build paths inside the project like this: BASE_DIR / 'subdir'.\nBASE_DIR = Path(__file__).resolve().parent.parent\n
+# Load environment variables from .env file
+load_dotenv()
+
+# Build paths inside the project like this: BASE_DIR / 'subdir'.
+BASE_DIR = Path(__file__).resolve().parent.parent
 
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/4.2/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-your-secret-key-here'
+SECRET_KEY = os.environ.get('SECRET_KEY', 'django-insecure-your-secret-key-here')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = os.environ.get('DEBUG', 'False').lower() == 'true'
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = os.environ.get('ALLOWED_HOSTS', 'localhost,127.0.0.1').split(',')
 
 
 # Application definition
@@ -90,15 +96,18 @@ ASGI_APPLICATION = 'krishibazaar.asgi.application'
 
 # Database
 # https://docs.djangoproject.com/en/5.0/ref/settings/
+# Use PostgreSQL for production (Render) or SQLite for local development
 DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
-    }
+    'default': dj_database_url.config(
+        default='sqlite:///' + str(BASE_DIR / 'db.sqlite3'),
+        conn_max_age=600,
+        conn_health_checks=True,
+        ssl_require=not DEBUG,
+    )
 }
-db_url = os.environ.get('DATABASE_URL')
-if db_url:
-    DATABASES['default'] = dj_database_url.parse(db_url, conn_max_age=600, conn_health_checks=True)
+
+# For Render deployment, set DATABASE_URL environment variable to:
+# postgresql://krishi_bazar_0nd1_user:z2lmmRte3MNn1wcDwFu5DqKmdmLHwDvU@dpg-d3388jripnbc73dongn0-a.oregon-postgres.render.com/krishi_bazar_0nd1
 
 
 # Password validation
