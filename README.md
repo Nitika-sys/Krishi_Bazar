@@ -1,117 +1,163 @@
-# Krishi-Bazar
+# Krishibazaar - Agricultural Marketplace Platform
 
-Krishi-Bazar is a digital agricultural marketplace platform that connects farmers directly with buyers, facilitating efficient trade of agricultural products.
-
-## Overview
-
-This platform aims to eliminate middlemen in agricultural trade, providing farmers with better prices for their produce while offering buyers access to fresh, locally-sourced agricultural products. The system includes bidding functionality, crop management, user profiles, and notifications.
+A comprehensive Django-based agricultural marketplace platform that connects farmers and buyers for crop trading, bidding, and agricultural services.
 
 ## Features
 
-- **User Authentication**: Separate registration and login for farmers and buyers
-- **Crop Management**: Farmers can add, update, and manage their crop listings
-- **Bidding System**: Buyers can create demands and farmers can place bids
-- **Multilingual Support**: Available in English, Hindi, and Kannada
-- **Notifications**: Real-time notifications for bids, demands, and transactions
-- **Dashboards**: Specialized dashboards for farmers and buyers
-- **Crop Recommendations**: Intelligent crop recommendations based on various factors
+- **User Management**: Separate dashboards for farmers and buyers
+- **Crop Management**: Add, edit, and manage crop listings
+- **Bidding System**: Place bids on crop demands
+- **Notifications**: Real-time notifications for bids and updates
+- **Multi-language Support**: English, Hindi, and Kannada
+- **Responsive Design**: Mobile-friendly interface
+- **Admin Panel**: Comprehensive admin interface
 
 ## Technology Stack
 
-- **Backend**: Django (Python)
-- **Database**: SQLite (Development)
-- **Frontend**: HTML, CSS, JavaScript
+- **Backend**: Django 5.2
+- **Frontend**: HTML, CSS, JavaScript, Tailwind CSS
+- **Database**: PostgreSQL (production), SQLite (development)
 - **Authentication**: Django Allauth
+- **Forms**: Django Crispy Forms with Tailwind
+- **Real-time**: Django Channels
+- **File Storage**: WhiteNoise for static files
+
+## Quick Start (Development)
+
+1. **Clone the repository**
+   ```bash
+   git clone <your-repo-url>
+   cd krishibazaar-project
+   ```
+
+2. **Create and activate virtual environment**
+   ```bash
+   python -m venv venv
+   venv\Scripts\activate  # Windows
+   source venv/bin/activate  # Linux/Mac
+   ```
+
+3. **Install dependencies**
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+4. **Run migrations**
+   ```bash
+   python manage.py migrate
+   ```
+
+5. **Create superuser**
+   ```bash
+   python manage.py createsuperuser
+   ```
+
+6. **Start development server**
+   ```bash
+   python manage.py runserver
+   ```
+
+7. **Access the application**
+   - Main site: http://localhost:8000
+   - Admin panel: http://localhost:8000/admin
+
+## Production Deployment
+
+This project is configured for deployment on Render. See the [DEPLOYMENT_GUIDE.md](DEPLOYMENT_GUIDE.md) for detailed instructions.
+
+### Quick Deploy to Render
+
+1. **Push your code to GitHub**
+2. **Connect to Render**
+   - Go to [Render Dashboard](https://dashboard.render.com)
+   - Click "New" → "Blueprint"
+   - Connect your GitHub repository
+3. **Deploy automatically**
+   - Render will detect `render.yaml` and create services
+   - Your app will be live at `https://your-app-name.onrender.com`
 
 ## Project Structure
 
 ```
-├── accounts/            # User authentication and profiles
-├── bidding/             # Demand and bid management
-├── crops/               # Crop listings and management
-├── krishibazaar/        # Main project settings
-├── locale/              # Internationalization files
-├── media/               # User-uploaded files
-├── notifications/       # User notification system
-├── static/              # Static files (CSS, JS, images)
-├── templates/           # HTML templates
-└── manage.py            # Django management script
+krishibazaar-project/
+├── accounts/           # User management and authentication
+├── crops/             # Crop listing and management
+├── bidding/           # Bidding system
+├── notifications/     # Notification system
+├── krishibazaar/      # Main project settings
+├── templates/         # HTML templates
+├── static/            # Static files (CSS, JS, images)
+├── media/             # User uploaded files
+├── locale/            # Translation files
+└── requirements.txt   # Python dependencies
 ```
 
-## Setup Instructions
+## Environment Variables
 
-### Prerequisites
+See [ENVIRONMENT_VARIABLES.md](ENVIRONMENT_VARIABLES.md) for a complete list of environment variables needed for production deployment.
 
-- Python 3.x
-- pip (Python package manager)
+## Key Features Explained
 
-### Installation
+### User Roles
+- **Farmers**: Can list crops, respond to demands, manage their profile
+- **Buyers**: Can create demands, place bids, browse crops
+- **Admin**: Full access to admin panel and system management
 
-1. Clone the repository:
-   ```
-   git clone https://github.com/yourusername/Krishi-Bazar.git
-   cd Krishi-Bazar
-   ```
+### Crop Management
+- Add crop details with images
+- Set pricing and availability
+- Climate zone and growing season information
+- Market preferences and yield data
 
-2. Create and activate a virtual environment:
-   ```
-   python -m venv venv
-   # On Windows
-   venv\Scripts\activate
-   # On macOS/Linux
-   source venv/bin/activate
-   ```
+### Bidding System
+- Create crop demands
+- Place competitive bids
+- Accept/reject bids
+- Real-time notifications
 
-3. Install dependencies:
-   ```
-   pip install -r requirements.txt
-   ```
+### Multi-language Support
+- English (default)
+- Hindi (हिंदी)
+- Kannada (ಕನ್ನಡ)
 
-4. Apply migrations:
-   ```
-   python manage.py migrate
-   ```
+## API Endpoints
 
-5. Create a superuser (admin):
-   ```
-   python manage.py createsuperuser
-   ```
-
-6. Run the development server:
-   ```
-   python manage.py runserver
-   ```
-
-7. Access the application at http://127.0.0.1:8000/
-
-## Usage
-
-### For Farmers
-
-1. Register as a farmer
-2. Add your crops with details and pricing
-3. Browse buyer demands and place bids
-4. Manage your crop listings and bids
-
-### For Buyers
-
-1. Register as a buyer
-2. Browse available crops
-3. Create demands for specific crops
-4. Accept bids from farmers
+The application provides RESTful APIs for:
+- User authentication
+- Crop management
+- Bidding operations
+- Notifications
 
 ## Contributing
 
 1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add some amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
+2. Create a feature branch
+3. Make your changes
+4. Add tests if applicable
+5. Submit a pull request
 
 ## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-## Contact
+## Support
 
-Project Link: [https://github.com/yourusername/Krishi-Bazar](https://github.com/yourusername/Krishi-Bazar)
+For support and questions:
+- Create an issue in the GitHub repository
+- Check the [DEPLOYMENT_GUIDE.md](DEPLOYMENT_GUIDE.md) for deployment issues
+- Review [ENVIRONMENT_VARIABLES.md](ENVIRONMENT_VARIABLES.md) for configuration help
+
+## Changelog
+
+### Version 1.0.0
+- Initial release
+- User authentication and management
+- Crop listing and management
+- Bidding system
+- Multi-language support
+- Admin panel
+- Responsive design
+
+---
+
+**Built with ❤️ for the agricultural community**

@@ -1,0 +1,14 @@
+# Production requirements for Krishibazaar deployment on Render
+Django==5.2
+django-crispy-forms==2.3
+crispy-tailwind==1.0.3
+django-allauth==65.7.0
+channels==4.2.2
+django-cors-headers==4.7.0
+Pillow==11.1.0
+python-dotenv==1.0.1
+gunicorn==23.0.0
+whitenoise==6.8.2
+psycopg2-binary==2.9.9
+dj-database-url==2.3.0
+django-modeltranslation==0.19.13
