@@ -12,24 +12,11 @@ DEBUG = False
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = os.environ.get('SECRET_KEY')
 
-# Allowed hosts
+# Allowed hosts (strictly env-driven)
 ALLOWED_HOSTS = [host.strip() for host in os.environ.get('ALLOWED_HOSTS', 'localhost,127.0.0.1').split(',') if host.strip()]
 
-# Ensure Render domains are allowed in production
-ALLOWED_HOSTS.extend([
-    'krishi-bazaar-qj7z.onrender.com',
-    '.onrender.com',
-])
-
-# CSRF trusted origins (Django 5 requires scheme)
-_csrf_env = os.environ.get('CSRF_TRUSTED_ORIGINS', '')
-if _csrf_env:
-    CSRF_TRUSTED_ORIGINS = [origin.strip() for origin in _csrf_env.split(',') if origin.strip()]
-else:
-    CSRF_TRUSTED_ORIGINS = [
-        'https://krishi-bazaar-qj7z.onrender.com',
-        'https://*.onrender.com',
-    ]
+# CSRF trusted origins (strictly env-driven)
+CSRF_TRUSTED_ORIGINS = [origin.strip() for origin in os.environ.get('CSRF_TRUSTED_ORIGINS', '').split(',') if origin.strip()]
 
 # Database configuration
 DATABASES = {
