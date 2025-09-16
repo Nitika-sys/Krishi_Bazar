@@ -32,9 +32,22 @@ SECRET_KEY = os.environ.get('SECRET_KEY', 'django-insecure-your-secret-key-here'
 DEBUG = os.environ.get('DEBUG', 'False').lower() == 'true'
 
 ALLOWED_HOSTS = [host.strip() for host in os.environ.get('ALLOWED_HOSTS', 'localhost,127.0.0.1').split(',') if host.strip()]
+# Fallback in production if env var not set or empty
+if not DEBUG and not ALLOWED_HOSTS:
+    ALLOWED_HOSTS = [
+        'krishi-bazaar-qj7z.onrender.com',
+        '.onrender.com',
+        'localhost',
+        '127.0.0.1',
+    ]
 
 # CSRF trusted origins (Django 5 requires scheme). Configure via env on Render.
 CSRF_TRUSTED_ORIGINS = [origin.strip() for origin in os.environ.get('CSRF_TRUSTED_ORIGINS', '').split(',') if origin.strip()]
+if not DEBUG and not CSRF_TRUSTED_ORIGINS:
+    CSRF_TRUSTED_ORIGINS = [
+        'https://krishi-bazaar-qj7z.onrender.com',
+        'https://*.onrender.com',
+    ]
 
 
 # Application definition
